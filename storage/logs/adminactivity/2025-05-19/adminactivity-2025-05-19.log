@@ -1,0 +1,444 @@
+[2025-05-19 16:08:35] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:08:35] local.DEBUG: 131
+
+
+------Start The User creation for ------------manager  
+[2025-05-19 16:09:19] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:09:19] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:10:22] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:10:22] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:15:36] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:15:36] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:17:13] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:17:13] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:19:39] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:19:39] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:20:35] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:20:35] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:20:35] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:20:35] local.DEBUG: 142
+
+
+------license exist for role------------2  
+[2025-05-19 16:20:35] local.DEBUG: 145
+
+
+------license count matches------------  
+[2025-05-19 16:20:35] local.DEBUG: 146
+
+
+------redirected to create page------------  
+[2025-05-19 16:22:54] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:22:54] local.DEBUG: 131
+
+
+------Start The User creation for ------------manager  
+[2025-05-19 16:22:54] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:22:54] local.DEBUG: 142
+
+
+------license exist for role------------1  
+[2025-05-19 16:22:54] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:28:37] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:28:37] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:28:37] local.DEBUG: 138
+
+
+------license count for role------------1  
+[2025-05-19 16:28:37] local.DEBUG: 142
+
+
+------license exist for role------------1  
+[2025-05-19 16:28:37] local.DEBUG: 145
+
+
+------license count matches------------  
+[2025-05-19 16:28:37] local.DEBUG: 146
+
+
+------redirected to create page------------  
+[2025-05-19 16:29:04] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:29:04] local.DEBUG: 219
+
+
+-----update client-----38  
+[2025-05-19 16:29:04] local.DEBUG: 258
+
+
+-----validation handle while on update client-----  
+[2025-05-19 16:29:04] local.DEBUG: 280
+
+
+----requested data are proper-----  
+[2025-05-19 16:29:05] local.DEBUG: 283
+
+
+-----update client by-----172.16.154.52  
+[2025-05-19 16:29:06] local.DEBUG: 321
+
+
+-----update client and license by-----172.16.154.52  
+[2025-05-19 16:29:53] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:29:53] local.DEBUG: 131
+
+
+------Start The User creation for ------------manager  
+[2025-05-19 16:29:53] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:29:53] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:29:53] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:30:10] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:30:10] local.DEBUG: 131
+
+
+------Start The User creation for ------------manager  
+[2025-05-19 16:30:10] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:30:10] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:30:10] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:30:20] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:30:20] local.DEBUG: 131
+
+
+------Start The User creation for ------------manager  
+[2025-05-19 16:30:20] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:30:20] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:30:20] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:30:20] local.DEBUG: 164
+
+
+---- validations are proper --------  
+[2025-05-19 16:30:21] local.DEBUG: 178
+
+
+----requested data are proper-----  
+[2025-05-19 16:30:21] local.DEBUG: 181
+
+
+----user data inserted by -----172.16.154.52  
+[2025-05-19 16:31:29] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:31:29] local.DEBUG: 131
+
+
+------Start The User creation for ------------admin  
+[2025-05-19 16:31:29] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:31:29] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:31:29] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:31:29] local.DEBUG: 164
+
+
+---- validations are proper --------  
+[2025-05-19 16:31:29] local.DEBUG: 178
+
+
+----requested data are proper-----  
+[2025-05-19 16:31:29] local.DEBUG: 181
+
+
+----user data inserted by -----172.16.154.52  
+[2025-05-19 16:32:39] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:32:39] local.DEBUG: 131
+
+
+------Start The User creation for ------------supervisor  
+[2025-05-19 16:32:39] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:32:39] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:32:39] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:32:39] local.DEBUG: 164
+
+
+---- validations are proper --------  
+[2025-05-19 16:32:40] local.DEBUG: 178
+
+
+----requested data are proper-----  
+[2025-05-19 16:32:40] local.DEBUG: 181
+
+
+----user data inserted by -----172.16.154.52  
+[2025-05-19 16:45:51] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:45:51] local.DEBUG: 131
+
+
+------Start The User creation for ------------mis  
+[2025-05-19 16:45:51] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:45:51] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:45:51] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:45:51] local.DEBUG: 164
+
+
+---- validations are proper --------  
+[2025-05-19 16:45:51] local.DEBUG: 178
+
+
+----requested data are proper-----  
+[2025-05-19 16:45:51] local.DEBUG: 181
+
+
+----user data inserted by -----172.16.154.52  
+[2025-05-19 16:46:49] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:46:49] local.DEBUG: 131
+
+
+------Start The User creation for ------------user  
+[2025-05-19 16:46:49] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:46:49] local.DEBUG: 142
+
+
+------license exist for role------------0  
+[2025-05-19 16:46:49] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:46:49] local.DEBUG: 164
+
+
+---- validations are proper --------  
+[2025-05-19 16:46:49] local.DEBUG: 178
+
+
+----requested data are proper-----  
+[2025-05-19 16:46:49] local.DEBUG: 181
+
+
+----user data inserted by -----172.16.154.52  
+[2025-05-19 16:47:40] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:47:40] local.DEBUG: 131
+
+
+------Start The User creation for ------------user  
+[2025-05-19 16:47:40] local.DEBUG: 138
+
+
+------license count for role------------2  
+[2025-05-19 16:47:40] local.DEBUG: 142
+
+
+------license exist for role------------1  
+[2025-05-19 16:47:40] local.DEBUG: 151
+
+
+------license granted------------  
+[2025-05-19 16:47:40] local.DEBUG: 164
+
+
+---- validations are proper --------  
+[2025-05-19 16:47:40] local.DEBUG: 178
+
+
+----requested data are proper-----  
+[2025-05-19 16:47:40] local.DEBUG: 181
+
+
+----user data inserted by -----172.16.154.52  
+[2025-05-19 16:48:24] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:48:24] local.DEBUG: 91
+
+
+------Start The queue creation------------  
+[2025-05-19 16:48:24] local.DEBUG: 114
+
+
+---- queue are save in queue model --------  
+[2025-05-19 16:48:24] local.DEBUG: 141
+
+
+---- mapped users are in array to insert --------  
+[2025-05-19 16:48:24] local.DEBUG: 143
+
+
+----Users are mapped as per queue-----  
+[2025-05-19 16:48:24] local.DEBUG: 144
+
+
+----queue create by --------172.16.154.52  
+[2025-05-19 16:48:38] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:48:38] local.DEBUG: 204
+
+
+------queue update------------  
+[2025-05-19 16:48:38] local.DEBUG: 216
+
+
+---- validations are proper --------  
+[2025-05-19 16:48:38] local.DEBUG: 228
+
+
+---- queue are save in queue model --------  
+[2025-05-19 16:48:38] local.DEBUG: 256
+
+
+---- mapped users are in array to insert --------  
+[2025-05-19 16:48:39] local.DEBUG: 258
+
+
+----Users are mapped as per queue-----  
+[2025-05-19 16:48:39] local.DEBUG: 259
+
+
+----queue create by --------172.16.154.52  
+[2025-05-19 16:50:56] local.DEBUG: 
+
+
+----\-----------------------/-----  
+[2025-05-19 16:50:56] local.DEBUG: 96
+
+
+----create break -----  
+[2025-05-19 16:50:56] local.DEBUG: 109
+
+
+---- validations are proper --------  
+[2025-05-19 16:50:56] local.DEBUG: 115
+
+
+----requested data are proper-----  
+[2025-05-19 16:50:56] local.DEBUG: 133
+
+
+----break create by --------172.16.154.52  

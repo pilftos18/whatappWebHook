@@ -1,0 +1,1347 @@
+
+Start : Wednesday 21st of May 2025 12:30:00 PM and End : Wednesday 21st of May 2025 12:30:00 PM
+Start : Wednesday 21st of May 2025 12:40:00 PM and End : Wednesday 21st of May 2025 12:40:00 PM
+Start : Wednesday 21st of May 2025 12:50:00 PM and End : Wednesday 21st of May 2025 12:50:00 PM
+Start : Wednesday 21st of May 2025 01:00:00 PM and End : Wednesday 21st of May 2025 01:00:00 PM
+Start : Wednesday 21st of May 2025 01:10:00 PM and End : Wednesday 21st of May 2025 01:10:00 PM
+Start : Wednesday 21st of May 2025 01:20:01 PM and End : Wednesday 21st of May 2025 01:20:01 PM
+Start : Wednesday 21st of May 2025 03:50:00 PM and End : Wednesday 21st of May 2025 03:50:00 PM
+Start : Wednesday 21st of May 2025 04:00:00 PM and End : Wednesday 21st of May 2025 04:00:00 PM
+Start : Wednesday 21st of May 2025 04:10:00 PM and End : Wednesday 21st of May 2025 04:10:00 PM
+Start : Wednesday 21st of May 2025 04:20:00 PM and End : Wednesday 21st of May 2025 04:20:00 PM
+Start : Wednesday 21st of May 2025 04:30:00 PM and End : Wednesday 21st of May 2025 04:30:00 PM
+Start : Wednesday 21st of May 2025 04:40:00 PM and End : Wednesday 21st of May 2025 04:40:00 PM
+Start : Wednesday 21st of May 2025 04:50:00 PM and End : Wednesday 21st of May 2025 04:50:00 PM
+Start : Wednesday 21st of May 2025 05:00:00 PM and End : Wednesday 21st of May 2025 05:00:00 PM
+Start : Wednesday 21st of May 2025 05:10:00 PM and End : Wednesday 21st of May 2025 05:10:00 PM
+Start : Wednesday 21st of May 2025 05:20:00 PM and End : Wednesday 21st of May 2025 05:20:00 PM
+Start : Wednesday 21st of May 2025 05:30:00 PM and End : Wednesday 21st of May 2025 05:30:00 PM
+Start : Wednesday 21st of May 2025 05:40:00 PM and End : Wednesday 21st of May 2025 05:40:00 PM
+Start : Wednesday 21st of May 2025 05:50:00 PM and End : Wednesday 21st of May 2025 05:50:00 PM
+Start : Wednesday 21st of May 2025 06:00:00 PM and End : Wednesday 21st of May 2025 06:00:00 PM
+Start : Wednesday 21st of May 2025 06:10:00 PM and End : Wednesday 21st of May 2025 06:10:00 PM
+Start : Wednesday 21st of May 2025 06:20:00 PM and End : Wednesday 21st of May 2025 06:20:00 PM
+Start : Wednesday 21st of May 2025 06:30:01 PM and End : Wednesday 21st of May 2025 06:30:01 PM
+Start : Wednesday 21st of May 2025 06:40:00 PM
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.assigning_flags' in 'where clause' (SQL: select `cl`.`chat_id`, `c`.`client_id`, `c`.`campaign_id`, `c`.`cust_unique_id`, `c`.`assigned_to`, `c`.`org_no` from `chat_log` as `cl` left join `chats` as `c` on `c`.`id` = `cl`.`chat_id` where `c`.`status` in (0, 1) and `c`.`assigning_flags` in (0, 1) and `c`.`is_closed` = 1 and `c`.`campaign_id` not in (37) group by `cl`.`chat_id` having TIMESTAMPDIFF(MINUTE, MAX(cl.created_at), NOW()) > 60 order by `c`.`id` desc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  • A column was not found: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    https://laravel.com/docs/master/migrations#running-migrations
+
+      [2m+9 vendor frames [22m
+  10  app/Http/Controllers/AssigingController.php:351
+      Illuminate\Database\Query\Builder::get()
+
+  11  app/Console/Commands/AutoClosed.php:42
+      App\Http\Controllers\AssigingController::autoClosedChat()
+
+Start : Wednesday 21st of May 2025 06:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 07:00:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 07:10:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 07:20:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 07:30:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 07:40:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 07:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 08:00:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 08:10:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 08:20:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 08:30:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 08:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 08:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 09:00:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 09:10:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 09:20:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 09:30:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 09:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 09:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 10:00:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 10:10:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 10:20:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 10:30:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 10:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 10:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 11:00:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 11:10:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 11:20:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 11:30:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 11:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Wednesday 21st of May 2025 11:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:10:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:00:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:10:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:50:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 04:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 04:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 04:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 04:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 04:40:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 04:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 05:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 05:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 05:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 05:30:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 05:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 05:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 06:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 06:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 06:20:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 06:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 06:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 06:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 07:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 07:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 07:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 07:30:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 07:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 07:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 08:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 08:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 08:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 08:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 08:40:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 08:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 09:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 09:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 09:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 09:30:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 09:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 09:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 10:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 10:10:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 10:20:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 10:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 10:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 10:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 11:00:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 11:10:01 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 11:20:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 11:30:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 11:40:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 11:50:00 AMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:00:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:10:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:20:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:30:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 12:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:00:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:10:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:20:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:30:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 01:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:00:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:10:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:20:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:30:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:40:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 02:50:00 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:00:01 PMclosed<pre>Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [chat_id] => 12
+                    [client_id] => 38
+                    [campaign_id] => 44
+                    [cust_unique_id] => 919137691294
+                    [assigned_to] => 
+                    [org_no] => 917304609236
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
+
+Start : Thursday 22nd of May 2025 03:10:00 PM and End : Thursday 22nd of May 2025 03:10:02 PM
+Start : Thursday 22nd of May 2025 03:20:00 PM and End : Thursday 22nd of May 2025 03:20:00 PM
+Start : Thursday 22nd of May 2025 03:30:00 PM and End : Thursday 22nd of May 2025 03:30:00 PM
+Start : Thursday 22nd of May 2025 03:50:00 PM and End : Thursday 22nd of May 2025 03:50:00 PM
+Start : Thursday 22nd of May 2025 04:00:00 PM and End : Thursday 22nd of May 2025 04:00:00 PM
+Start : Thursday 22nd of May 2025 04:10:00 PM and End : Thursday 22nd of May 2025 04:10:06 PM
+Start : Thursday 22nd of May 2025 04:20:01 PM and End : Thursday 22nd of May 2025 04:20:01 PM
+Start : Thursday 22nd of May 2025 04:30:00 PM and End : Thursday 22nd of May 2025 04:30:00 PM
+Start : Thursday 22nd of May 2025 04:40:00 PM and End : Thursday 22nd of May 2025 04:40:00 PM
+Start : Thursday 22nd of May 2025 04:50:00 PM and End : Thursday 22nd of May 2025 04:50:00 PM
+Start : Thursday 22nd of May 2025 05:00:00 PM and End : Thursday 22nd of May 2025 05:00:00 PM
+Start : Thursday 22nd of May 2025 05:10:00 PM and End : Thursday 22nd of May 2025 05:10:00 PM
+Start : Thursday 22nd of May 2025 05:20:00 PM and End : Thursday 22nd of May 2025 05:20:01 PM
+Start : Thursday 22nd of May 2025 05:30:00 PM and End : Thursday 22nd of May 2025 05:30:00 PM
+Start : Thursday 22nd of May 2025 05:40:00 PM and End : Thursday 22nd of May 2025 05:40:00 PM
+Start : Thursday 22nd of May 2025 05:50:00 PM and End : Thursday 22nd of May 2025 05:50:00 PM
+Start : Thursday 22nd of May 2025 06:00:00 PM and End : Thursday 22nd of May 2025 06:00:00 PM
+Start : Thursday 22nd of May 2025 06:10:01 PM and End : Thursday 22nd of May 2025 06:10:01 PM
+Start : Thursday 22nd of May 2025 06:20:00 PM and End : Thursday 22nd of May 2025 06:20:01 PM
+Start : Thursday 22nd of May 2025 06:30:00 PM and End : Thursday 22nd of May 2025 06:30:00 PM
+Start : Thursday 22nd of May 2025 06:40:00 PM and End : Thursday 22nd of May 2025 06:40:00 PM
+Start : Thursday 22nd of May 2025 06:50:00 PM and End : Thursday 22nd of May 2025 06:50:00 PM
+Start : Thursday 22nd of May 2025 07:00:00 PM and End : Thursday 22nd of May 2025 07:00:00 PM
+Start : Thursday 22nd of May 2025 07:10:00 PM and End : Thursday 22nd of May 2025 07:10:00 PM
+Start : Thursday 22nd of May 2025 07:20:00 PM and End : Thursday 22nd of May 2025 07:20:00 PM
+Start : Thursday 22nd of May 2025 07:30:00 PM and End : Thursday 22nd of May 2025 07:30:00 PM
+Start : Thursday 22nd of May 2025 07:40:00 PM and End : Thursday 22nd of May 2025 07:40:00 PM
+Start : Thursday 22nd of May 2025 07:50:00 PM and End : Thursday 22nd of May 2025 07:50:00 PM
+Start : Thursday 22nd of May 2025 08:00:00 PM and End : Thursday 22nd of May 2025 08:00:02 PM
+Start : Thursday 22nd of May 2025 08:10:00 PM and End : Thursday 22nd of May 2025 08:10:01 PM
+Start : Thursday 22nd of May 2025 08:20:00 PM and End : Thursday 22nd of May 2025 08:20:00 PM
+Start : Thursday 22nd of May 2025 08:30:01 PM and End : Thursday 22nd of May 2025 08:30:01 PM
+Start : Thursday 22nd of May 2025 08:40:00 PM and End : Thursday 22nd of May 2025 08:40:00 PM
+Start : Thursday 22nd of May 2025 08:50:00 PM and End : Thursday 22nd of May 2025 08:50:00 PM
+Start : Thursday 22nd of May 2025 09:00:00 PM and End : Thursday 22nd of May 2025 09:00:00 PM
+Start : Thursday 22nd of May 2025 09:10:00 PM and End : Thursday 22nd of May 2025 09:10:02 PM
+Start : Thursday 22nd of May 2025 09:20:00 PM and End : Thursday 22nd of May 2025 09:20:00 PM
+Start : Thursday 22nd of May 2025 09:30:00 PM and End : Thursday 22nd of May 2025 09:30:00 PM
+Start : Thursday 22nd of May 2025 09:40:00 PM and End : Thursday 22nd of May 2025 09:40:00 PM
+Start : Thursday 22nd of May 2025 09:50:00 PM and End : Thursday 22nd of May 2025 09:50:00 PM
+Start : Thursday 22nd of May 2025 10:00:01 PM and End : Thursday 22nd of May 2025 10:00:01 PM
+Start : Thursday 22nd of May 2025 10:10:00 PM and End : Thursday 22nd of May 2025 10:10:00 PM
+Start : Thursday 22nd of May 2025 10:20:01 PM and End : Thursday 22nd of May 2025 10:20:01 PM
+Start : Thursday 22nd of May 2025 10:30:00 PM and End : Thursday 22nd of May 2025 10:30:00 PM
+Start : Thursday 22nd of May 2025 10:40:00 PM and End : Thursday 22nd of May 2025 10:40:00 PM
+Start : Thursday 22nd of May 2025 10:50:00 PM and End : Thursday 22nd of May 2025 10:50:00 PM
+Start : Thursday 22nd of May 2025 11:00:00 PM and End : Thursday 22nd of May 2025 11:00:00 PM
+Start : Thursday 22nd of May 2025 11:10:01 PM and End : Thursday 22nd of May 2025 11:10:01 PM
+Start : Thursday 22nd of May 2025 11:20:00 PM and End : Thursday 22nd of May 2025 11:20:00 PM
+Start : Thursday 22nd of May 2025 11:30:00 PM and End : Thursday 22nd of May 2025 11:30:00 PM
+Start : Thursday 22nd of May 2025 11:40:00 PM and End : Thursday 22nd of May 2025 11:40:00 PM
+Start : Thursday 22nd of May 2025 11:50:00 PM and End : Thursday 22nd of May 2025 11:50:00 PM
+Start : Friday 23rd of May 2025 12:00:01 AM and End : Friday 23rd of May 2025 12:00:01 AM
+Start : Friday 23rd of May 2025 12:10:00 AM and End : Friday 23rd of May 2025 12:10:00 AM
+Start : Friday 23rd of May 2025 12:20:00 AM and End : Friday 23rd of May 2025 12:20:00 AM
+Start : Friday 23rd of May 2025 12:30:00 AM and End : Friday 23rd of May 2025 12:30:00 AM
+Start : Friday 23rd of May 2025 12:40:00 AM and End : Friday 23rd of May 2025 12:40:00 AM
+Start : Friday 23rd of May 2025 12:50:00 AM and End : Friday 23rd of May 2025 12:50:00 AM
+Start : Friday 23rd of May 2025 01:00:00 AM and End : Friday 23rd of May 2025 01:00:00 AM
+Start : Friday 23rd of May 2025 01:10:00 AM and End : Friday 23rd of May 2025 01:10:01 AM
+Start : Friday 23rd of May 2025 01:20:00 AM and End : Friday 23rd of May 2025 01:20:00 AM
+Start : Friday 23rd of May 2025 01:30:01 AM and End : Friday 23rd of May 2025 01:30:01 AM
+Start : Friday 23rd of May 2025 01:40:00 AM and End : Friday 23rd of May 2025 01:40:00 AM
+Start : Friday 23rd of May 2025 01:50:01 AM and End : Friday 23rd of May 2025 01:50:01 AM
+Start : Friday 23rd of May 2025 02:00:00 AM and End : Friday 23rd of May 2025 02:00:00 AM
+Start : Friday 23rd of May 2025 02:10:00 AM and End : Friday 23rd of May 2025 02:10:00 AM
+Start : Friday 23rd of May 2025 02:20:00 AM and End : Friday 23rd of May 2025 02:20:00 AM
+Start : Friday 23rd of May 2025 02:30:00 AM and End : Friday 23rd of May 2025 02:30:00 AM
+Start : Friday 23rd of May 2025 02:40:00 AM and End : Friday 23rd of May 2025 02:40:00 AM
+Start : Friday 23rd of May 2025 02:50:00 AM and End : Friday 23rd of May 2025 02:50:00 AM
+Start : Friday 23rd of May 2025 03:00:00 AM and End : Friday 23rd of May 2025 03:00:00 AM
+Start : Friday 23rd of May 2025 03:10:00 AM and End : Friday 23rd of May 2025 03:10:00 AM
+Start : Friday 23rd of May 2025 03:20:01 AM and End : Friday 23rd of May 2025 03:20:01 AM
+Start : Friday 23rd of May 2025 03:30:00 AM and End : Friday 23rd of May 2025 03:30:00 AM
+Start : Friday 23rd of May 2025 03:40:01 AM and End : Friday 23rd of May 2025 03:40:01 AM
+Start : Friday 23rd of May 2025 03:50:00 AM and End : Friday 23rd of May 2025 03:50:00 AM
+Start : Friday 23rd of May 2025 04:00:00 AM and End : Friday 23rd of May 2025 04:00:00 AM
+Start : Friday 23rd of May 2025 04:10:00 AM and End : Friday 23rd of May 2025 04:10:00 AM
+Start : Friday 23rd of May 2025 04:20:00 AM and End : Friday 23rd of May 2025 04:20:00 AM
+Start : Friday 23rd of May 2025 04:30:00 AM and End : Friday 23rd of May 2025 04:30:00 AM
+Start : Friday 23rd of May 2025 04:40:00 AM and End : Friday 23rd of May 2025 04:40:00 AM
+Start : Friday 23rd of May 2025 04:50:00 AM and End : Friday 23rd of May 2025 04:50:00 AM
+Start : Friday 23rd of May 2025 05:00:00 AM and End : Friday 23rd of May 2025 05:00:00 AM
+Start : Friday 23rd of May 2025 05:10:00 AM and End : Friday 23rd of May 2025 05:10:00 AM
+Start : Friday 23rd of May 2025 05:20:00 AM and End : Friday 23rd of May 2025 05:20:00 AM
+Start : Friday 23rd of May 2025 05:30:00 AM and End : Friday 23rd of May 2025 05:30:00 AM
+Start : Friday 23rd of May 2025 05:40:00 AM and End : Friday 23rd of May 2025 05:40:00 AM
+Start : Friday 23rd of May 2025 05:50:00 AM and End : Friday 23rd of May 2025 05:50:01 AM
+Start : Friday 23rd of May 2025 06:00:00 AM and End : Friday 23rd of May 2025 06:00:00 AM
+Start : Friday 23rd of May 2025 06:10:01 AM and End : Friday 23rd of May 2025 06:10:01 AM
+Start : Friday 23rd of May 2025 06:20:00 AM and End : Friday 23rd of May 2025 06:20:00 AM
+Start : Friday 23rd of May 2025 06:30:01 AM and End : Friday 23rd of May 2025 06:30:01 AM
+Start : Friday 23rd of May 2025 06:40:00 AM and End : Friday 23rd of May 2025 06:40:00 AM
+Start : Friday 23rd of May 2025 06:50:00 AM and End : Friday 23rd of May 2025 06:50:00 AM
+Start : Friday 23rd of May 2025 07:00:00 AM and End : Friday 23rd of May 2025 07:00:00 AM
+Start : Friday 23rd of May 2025 07:10:00 AM and End : Friday 23rd of May 2025 07:10:00 AM
+Start : Friday 23rd of May 2025 07:20:00 AM and End : Friday 23rd of May 2025 07:20:00 AM
+Start : Friday 23rd of May 2025 07:30:00 AM and End : Friday 23rd of May 2025 07:30:00 AM
+Start : Friday 23rd of May 2025 07:40:00 AM and End : Friday 23rd of May 2025 07:40:00 AM
+Start : Friday 23rd of May 2025 07:50:00 AM and End : Friday 23rd of May 2025 07:50:00 AM
+Start : Friday 23rd of May 2025 08:00:00 AM and End : Friday 23rd of May 2025 08:00:00 AM
+Start : Friday 23rd of May 2025 08:10:00 AM and End : Friday 23rd of May 2025 08:10:00 AM
+Start : Friday 23rd of May 2025 08:20:00 AM and End : Friday 23rd of May 2025 08:20:00 AM
+Start : Friday 23rd of May 2025 08:30:00 AM and End : Friday 23rd of May 2025 08:30:00 AM
+Start : Friday 23rd of May 2025 08:40:00 AM and End : Friday 23rd of May 2025 08:40:00 AM
+Start : Friday 23rd of May 2025 08:50:00 AM and End : Friday 23rd of May 2025 08:50:00 AM
+Start : Friday 23rd of May 2025 09:00:01 AM and End : Friday 23rd of May 2025 09:00:01 AM
+Start : Friday 23rd of May 2025 09:10:00 AM and End : Friday 23rd of May 2025 09:10:00 AM
+Start : Friday 23rd of May 2025 09:20:00 AM and End : Friday 23rd of May 2025 09:20:00 AM
+Start : Friday 23rd of May 2025 09:30:00 AM and End : Friday 23rd of May 2025 09:30:00 AM
+Start : Friday 23rd of May 2025 09:40:00 AM and End : Friday 23rd of May 2025 09:40:00 AM
+Start : Friday 23rd of May 2025 09:50:00 AM and End : Friday 23rd of May 2025 09:50:00 AM
+Start : Friday 23rd of May 2025 10:00:00 AM and End : Friday 23rd of May 2025 10:00:00 AM
+Start : Friday 23rd of May 2025 10:10:01 AM and End : Friday 23rd of May 2025 10:10:01 AM
+Start : Friday 23rd of May 2025 10:20:00 AM and End : Friday 23rd of May 2025 10:20:00 AM
+Start : Friday 23rd of May 2025 10:30:01 AM and End : Friday 23rd of May 2025 10:30:01 AM
+Start : Friday 23rd of May 2025 10:40:00 AM and End : Friday 23rd of May 2025 10:40:00 AM
+Start : Friday 23rd of May 2025 10:50:00 AM and End : Friday 23rd of May 2025 10:50:00 AM
+Start : Friday 23rd of May 2025 11:00:00 AM and End : Friday 23rd of May 2025 11:00:00 AM

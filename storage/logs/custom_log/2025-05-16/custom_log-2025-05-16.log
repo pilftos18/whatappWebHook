@@ -1,0 +1,91 @@
+[2025-05-16 15:39:21] local.DEBUG: 883
+
+
+--------------------Start The agent activity report ------------------------------------  
+[2025-05-16 15:39:21] local.DEBUG: 892 : getting request data for agent activity report  --
+Client ID: 5
+Date From: 05/09/2025
+Date To: 05/16/2025
+SQL Date From: 2025-05-09
+SQL Date To: 2025-05-16
+User: ["All"]  
+[2025-05-16 15:39:21] local.DEBUG: 912 : if all users is there then --  
+[2025-05-16 15:39:21] local.DEBUG: Query for user: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-16 15:39:21] local.DEBUG: Bindings: ["5",0,1,"user"]  
+[2025-05-16 15:39:21] local.DEBUG: 992 : put content in csv if userrole is super_admin-----  
+[2025-05-16 15:39:21] local.DEBUG: 1016 : generate csv -----  
+[2025-05-16 15:39:21] local.DEBUG: 1020 : file created -----  
+[2025-05-16 15:39:21] local.DEBUG: 1031 : put csv content in file -----  
+[2025-05-16 15:39:21] local.DEBUG: 1039 : file storage as -----  
+[2025-05-16 15:39:21] local.DEBUG: 1041 : agent activity report generate -----  
+[2025-05-16 17:23:23] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-16 17:23:23] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/15/2025
+Date To: 05/16/2025
+SQL Date From: 2025-05-15
+SQL Date To: 2025-05-16
+campaign: "44"
+assign: "all"  
+[2025-05-16 17:23:39] local.DEBUG: 33
+
+
+--------------------Start The login report ------------------------------------  
+[2025-05-16 17:23:39] local.DEBUG: 42 : getting request data for loginreport --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/16/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-16
+User: ["All"]  
+[2025-05-16 17:23:39] local.DEBUG: 62 : if all users is there then --  
+[2025-05-16 17:23:39] local.DEBUG: Query for user: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-16 17:23:39] local.DEBUG: Bindings: ["38",0,1,"user"]  
+[2025-05-16 17:23:39] local.DEBUG: 127 : query for loginreport including user --  
+[2025-05-16 17:23:39] local.DEBUG:  Query for login report: select `clients`.`name` as `clientname`, `users`.`name` as `Name`, `users`.`username` as `Username`, `break_log`.`break_name`, `break_log`.`start_time`, `break_log`.`end_time`, `break_log`.`break_time`, `break_log`.`activity_status` from `break_log` left join `users` on `users`.`id` = `break_log`.`user_id` left join `clients` on `clients`.`id` = `break_log`.`client_id` where DATE(break_log.start_time) BETWEEN ? AND ? and `break_log`.`client_id` = ? and 0 = 1 and `break_log`.`break_name` = ? order by `break_log`.`user_id` asc, `break_log`.`start_time` desc  
+[2025-05-16 17:23:39] local.DEBUG: Bindings: ["2025-05-01","2025-05-16","38","Login"]  
+[2025-05-16 17:23:39] local.DEBUG: 210 : put content in csv if userrole is super_admin-----  
+[2025-05-16 17:23:39] local.DEBUG: 237 : generate csv -----  
+[2025-05-16 17:23:39] local.DEBUG: 241 : file created -----  
+[2025-05-16 17:23:39] local.DEBUG: 252 : put csv content in file -----  
+[2025-05-16 17:23:39] local.DEBUG: 260 : file storage as -----  
+[2025-05-16 17:23:39] local.DEBUG: 262 : loginreport generate -----  
+[2025-05-16 17:28:47] local.DEBUG: 
+
+
+--------------------Start getting ChatsList------------------------------------  
+[2025-05-16 17:28:47] local.DEBUG: 775 : getting request data for ChatsList --
+Client ID: 35
+Date From: 05/01/2025
+Date To: 05/16/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-16
+User: ["All"]  
+[2025-05-16 17:28:47] local.DEBUG: 795 : if all users is there then --  
+[2025-05-16 17:28:47] local.DEBUG: Query for users: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-16 17:28:47] local.DEBUG: Bindings: ["35",0,1,"user"]  
+[2025-05-16 17:28:47] local.DEBUG: 838 : query for ChatsList including all user --  
+[2025-05-16 17:28:47] local.DEBUG: Query for ChatsList: select `clients`.`name` as `clientname`, `campaign`.`name` as `campaign_name`, `users`.`name` as `user_name`, `users`.`role` as `role`, `chats`.`id` as `chat_id`, `chats`.`customer_name` as `cust_name`, `chats`.`cust_unique_id`, `chats`.`assigned_to` as `assignto`, `chats`.`assigned_by` as `assignby`, `chats`.`assigning_flag`, `chats`.`assigned_to`, `chats`.`assigned_at`, `assigning_user`.`name` as `assigned_by`, `chats`.`is_closed`, `closed_user`.`name` as `closed_by`, `chats`.`dispo`, `chats`.`sub_dispo`, `chats`.`remark`, `chats`.`created_at`, `chats`.`closed_at` from `chats` left join `users` on `users`.`id` = `chats`.`assigned_to` left join `clients` on `clients`.`id` = `chats`.`client_id` left join `campaign` on `campaign`.`id` = `chats`.`campaign_id` left join `users` as `closed_user` on `closed_user`.`id` = `chats`.`closed_by` left join `users` as `assigning_user` on `assigning_user`.`id` = `chats`.`assigned_by` where DATE(chats.created_at) BETWEEN ? AND ? and `chats`.`is_closed` in (?, ?, ?, ?) and `clients`.`id` = ? order by `chats`.`id` desc  
+[2025-05-16 17:28:47] local.DEBUG: Bindings: ["2025-05-01","2025-05-16","1","2","3","4","35"]  
+[2025-05-16 17:28:47] local.DEBUG: 867 : data put in datatables -----  
+[2025-05-16 18:01:11] local.DEBUG: 
+
+
+--------------------Start getting ChatsList------------------------------------  
+[2025-05-16 18:01:11] local.DEBUG: 775 : getting request data for ChatsList --
+Client ID: 36
+Date From: 05/01/2025
+Date To: 05/16/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-16
+User: ["All"]  
+[2025-05-16 18:01:11] local.DEBUG: 795 : if all users is there then --  
+[2025-05-16 18:01:11] local.DEBUG: Query for users: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-16 18:01:11] local.DEBUG: Bindings: ["36",0,1,"user"]  
+[2025-05-16 18:01:11] local.DEBUG: 838 : query for ChatsList including all user --  
+[2025-05-16 18:01:11] local.DEBUG: Query for ChatsList: select `clients`.`name` as `clientname`, `campaign`.`name` as `campaign_name`, `users`.`name` as `user_name`, `users`.`role` as `role`, `chats`.`id` as `chat_id`, `chats`.`customer_name` as `cust_name`, `chats`.`cust_unique_id`, `chats`.`assigned_to` as `assignto`, `chats`.`assigned_by` as `assignby`, `chats`.`assigning_flag`, `chats`.`assigned_to`, `chats`.`assigned_at`, `assigning_user`.`name` as `assigned_by`, `chats`.`is_closed`, `closed_user`.`name` as `closed_by`, `chats`.`dispo`, `chats`.`sub_dispo`, `chats`.`remark`, `chats`.`created_at`, `chats`.`closed_at` from `chats` left join `users` on `users`.`id` = `chats`.`assigned_to` left join `clients` on `clients`.`id` = `chats`.`client_id` left join `campaign` on `campaign`.`id` = `chats`.`campaign_id` left join `users` as `closed_user` on `closed_user`.`id` = `chats`.`closed_by` left join `users` as `assigning_user` on `assigning_user`.`id` = `chats`.`assigned_by` where DATE(chats.created_at) BETWEEN ? AND ? and `chats`.`is_closed` in (?, ?, ?, ?) and `clients`.`id` = ? order by `chats`.`id` desc  
+[2025-05-16 18:01:11] local.DEBUG: Bindings: ["2025-05-01","2025-05-16","1","2","3","4","36"]  
+[2025-05-16 18:01:11] local.DEBUG: 867 : data put in datatables -----  

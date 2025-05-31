@@ -1,0 +1,258 @@
+[2025-05-20 15:24:42] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:24:42] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:24:42] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:25:06] local.DEBUG: 
+
+
+-------------------- manual user assign log -------------  
+[2025-05-20 15:25:06] local.DEBUG: 145 : getting request data for manual user assign log  --
+Client ID: 38
+assigner_id: 82
+userid: 98  
+[2025-05-20 15:25:06] local.DEBUG: 150 : start updating data in chats table  --  
+[2025-05-20 15:25:06] local.DEBUG: 154 : data inserted in chats table --
+chat_id: 5
+assign_to: 98
+assigned_by: 82
+assigned_at: 2025-05-20 15:25:06  
+[2025-05-20 15:25:07] local.DEBUG: 168 : data inserted in manualassign_log table --
+chat_id: 5\assigned_to: 98
+assigned_by: 82
+assigned_at: 2025-05-20 15:25:07  
+[2025-05-20 15:25:07] local.DEBUG: 154 : data inserted in chats table --
+chat_id: 6
+assign_to: 98
+assigned_by: 82
+assigned_at: 2025-05-20 15:25:07  
+[2025-05-20 15:25:08] local.DEBUG: 168 : data inserted in manualassign_log table --
+chat_id: 6\assigned_to: 98
+assigned_by: 82
+assigned_at: 2025-05-20 15:25:08  
+[2025-05-20 15:25:08] local.DEBUG: 177 : data inserted in chats and manualassign_log table  --  
+[2025-05-20 15:29:53] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:29:53] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:29:53] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:31:06] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:31:06] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:31:06] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:31:07] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:31:07] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:31:07] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:31:08] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:31:08] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:31:08] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:34:52] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:34:52] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:34:52] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:37:18] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-20 15:37:18] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/13/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-13
+SQL Date To: 2025-05-20
+campaign: "44"
+assign: "all"  
+[2025-05-20 15:37:18] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-20 15:42:27] local.DEBUG: 
+
+
+-------------------- manual user assign log -------------  
+[2025-05-20 15:42:27] local.DEBUG: 145 : getting request data for manual user assign log  --
+Client ID: 38
+assigner_id: 82
+userid: 98  
+[2025-05-20 15:42:27] local.DEBUG: 150 : start updating data in chats table  --  
+[2025-05-20 15:42:27] local.DEBUG: 154 : data inserted in chats table --
+chat_id: 7
+assign_to: 98
+assigned_by: 82
+assigned_at: 2025-05-20 15:42:27  
+[2025-05-20 15:42:27] local.DEBUG: 168 : data inserted in manualassign_log table --
+chat_id: 7\assigned_to: 98
+assigned_by: 82
+assigned_at: 2025-05-20 15:42:27  
+[2025-05-20 15:42:27] local.DEBUG: 177 : data inserted in chats and manualassign_log table  --  
+[2025-05-20 17:22:10] local.DEBUG: 33
+
+
+--------------------Start The login report ------------------------------------  
+[2025-05-20 17:22:10] local.DEBUG: 42 : getting request data for loginreport --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+User: ["All"]  
+[2025-05-20 17:22:10] local.DEBUG: 62 : if all users is there then --  
+[2025-05-20 17:22:10] local.DEBUG: Query for user: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-20 17:22:10] local.DEBUG: Bindings: [38,0,1,"user"]  
+[2025-05-20 17:22:10] local.DEBUG: 127 : query for loginreport including user --  
+[2025-05-20 17:22:10] local.DEBUG:  Query for login report: select SEC_TO_TIME(SUM(CASE WHEN break_log.break_name NOT IN ("Login") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Duration, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Login" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END) - SUM(CASE WHEN break_log.break_name NOT IN ("Login") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Ideal_duration, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name NOT IN ("Ready","Soft","Login") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Total_Break_Time, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name IN ("Tea","Bio","Lunch","Meeting") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Break_Duration, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Soft" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Soft_Break, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Tea" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Tea, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Bio" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Bio, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Ready" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Ready, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Lunch" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Lunch_Break, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Meeting" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Meeting from `break_log` where `break_log`.`client_id` = ? and `break_log`.`user_id` in (?, ?) and `break_log`.`start_time` >= ? and `break_log`.`end_time` <= ? order by `break_log`.`user_id` asc, `break_log`.`start_time` desc  
+[2025-05-20 17:22:10] local.DEBUG: Bindings: [38,97,98,"2025-05-19 17:33:40","2025-05-19 17:36:58"]  
+[2025-05-20 17:22:10] local.DEBUG: 210 : put content in csv if userrole is super_admin-----  
+[2025-05-20 17:22:10] local.DEBUG: 237 : generate csv -----  
+[2025-05-20 17:22:10] local.DEBUG: 241 : file created -----  
+[2025-05-20 17:22:10] local.DEBUG: 252 : put csv content in file -----  
+[2025-05-20 17:22:10] local.DEBUG: 260 : file storage as -----  
+[2025-05-20 17:22:10] local.DEBUG: 262 : loginreport generate -----  
+[2025-05-20 17:22:35] local.DEBUG: 273
+
+
+--------------------Start The summary report ------------------------------------  
+[2025-05-20 17:22:35] local.DEBUG: 282 : getting request data for summary report  --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+User: ["All"]  
+[2025-05-20 17:22:35] local.DEBUG: 302 : if all users is there then --  
+[2025-05-20 17:22:35] local.DEBUG: Query for user: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-20 17:22:35] local.DEBUG: Bindings: [38,0,1,"user"]  
+[2025-05-20 17:22:35] local.DEBUG: 396 : query for summary report including user --  
+[2025-05-20 17:22:35] local.DEBUG:  Query for summary report: select `break_log`.`user_id` as `userid`, DATE(break_log.created_at) AS Date_log, MIN(break_log.created_at) AS Latest_Login_time, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Login" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Login_duration, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name NOT IN ("Login") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Duration, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Login" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END) - SUM(CASE WHEN break_log.break_name NOT IN ("Login") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Ideal_duration, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name NOT IN ("Ready","Soft","Login") THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Total_Break_Time, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Soft" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Soft_Break, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Tea" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Tea, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Bio" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Bio, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Ready" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Ready, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Lunch" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Lunch_Break, SEC_TO_TIME(SUM(CASE WHEN break_log.break_name = "Meeting" THEN TIME_TO_SEC(break_log.break_time) ELSE 0 END)) AS Meeting from `break_log` where DATE(break_log.created_at) BETWEEN ? AND ? and `break_log`.`client_id` = ? and `break_log`.`user_id` in (?, ?) group by `break_log`.`client_id`, `break_log`.`user_id`, `Date_log` order by `Date_log` desc, `Latest_Login_time` desc  
+[2025-05-20 17:22:35] local.DEBUG: Bindings: ["2025-05-01","2025-05-20",38,97,98]  
+[2025-05-20 17:22:35] local.DEBUG: 510 : put content in csv if userrole is super_admin-----  
+[2025-05-20 17:22:35] local.DEBUG: 541 : generate csv -----  
+[2025-05-20 17:22:35] local.DEBUG: 545 : file created -----  
+[2025-05-20 17:22:35] local.DEBUG: 556 : put csv content in file -----  
+[2025-05-20 17:22:35] local.DEBUG: 564 : file storage as -----  
+[2025-05-20 17:22:35] local.DEBUG: 566 : SummaryReport_ generate -----  
+[2025-05-20 17:23:16] local.DEBUG: 883
+
+
+--------------------Start The agent activity report ------------------------------------  
+[2025-05-20 17:23:16] local.DEBUG: 892 : getting request data for agent activity report  --
+Client ID: 38
+Date From: 05/13/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-13
+SQL Date To: 2025-05-20
+User: ["All"]  
+[2025-05-20 17:23:16] local.DEBUG: 912 : if all users is there then --  
+[2025-05-20 17:23:16] local.DEBUG: Query for user: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-20 17:23:16] local.DEBUG: Bindings: [38,0,1,"user"]  
+[2025-05-20 17:23:16] local.DEBUG: 992 : put content in csv if userrole is super_admin-----  
+[2025-05-20 17:23:16] local.DEBUG: 1016 : generate csv -----  
+[2025-05-20 17:23:16] local.DEBUG: 1020 : file created -----  
+[2025-05-20 17:23:16] local.DEBUG: 1031 : put csv content in file -----  
+[2025-05-20 17:23:16] local.DEBUG: 1039 : file storage as -----  
+[2025-05-20 17:23:16] local.DEBUG: 1041 : agent activity report generate -----  
+[2025-05-20 17:23:32] local.DEBUG: 
+
+
+--------------------Start getting ChatsList------------------------------------  
+[2025-05-20 17:23:32] local.DEBUG: 775 : getting request data for ChatsList --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/01/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-01
+User: ["All"]  
+[2025-05-20 17:23:32] local.DEBUG: 795 : if all users is there then --  
+[2025-05-20 17:23:32] local.DEBUG: Query for users: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-20 17:23:32] local.DEBUG: Bindings: [38,0,1,"user"]  
+[2025-05-20 17:23:32] local.DEBUG: 838 : query for ChatsList including all user --  
+[2025-05-20 17:23:32] local.DEBUG: Query for ChatsList: select `clients`.`name` as `clientname`, `campaign`.`name` as `campaign_name`, `users`.`name` as `user_name`, `users`.`role` as `role`, `chats`.`id` as `chat_id`, `chats`.`customer_name` as `cust_name`, `chats`.`cust_unique_id`, `chats`.`assigned_to` as `assignto`, `chats`.`assigned_by` as `assignby`, `chats`.`assigning_flag`, `chats`.`assigned_to`, `chats`.`assigned_at`, `assigning_user`.`name` as `assigned_by`, `chats`.`is_closed`, `closed_user`.`name` as `closed_by`, `chats`.`dispo`, `chats`.`sub_dispo`, `chats`.`remark`, `chats`.`created_at`, `chats`.`closed_at` from `chats` left join `users` on `users`.`id` = `chats`.`assigned_to` left join `clients` on `clients`.`id` = `chats`.`client_id` left join `campaign` on `campaign`.`id` = `chats`.`campaign_id` left join `users` as `closed_user` on `closed_user`.`id` = `chats`.`closed_by` left join `users` as `assigning_user` on `assigning_user`.`id` = `chats`.`assigned_by` where DATE(chats.created_at) BETWEEN ? AND ? and `chats`.`is_closed` in (?, ?, ?, ?) and `clients`.`id` = ? order by `chats`.`id` desc  
+[2025-05-20 17:23:32] local.DEBUG: Bindings: ["2025-05-01","2025-05-01","1","2","3","4",38]  
+[2025-05-20 17:23:32] local.DEBUG: 867 : data put in datatables -----  
+[2025-05-20 17:23:43] local.DEBUG: 
+
+
+--------------------Start getting ChatsList------------------------------------  
+[2025-05-20 17:23:43] local.DEBUG: 775 : getting request data for ChatsList --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/01/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-01
+User: ["All"]  
+[2025-05-20 17:23:43] local.DEBUG: 795 : if all users is there then --  
+[2025-05-20 17:23:43] local.DEBUG: Query for users: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-20 17:23:43] local.DEBUG: Bindings: [38,0,1,"user"]  
+[2025-05-20 17:23:43] local.DEBUG: 838 : query for ChatsList including all user --  
+[2025-05-20 17:23:43] local.DEBUG: Query for ChatsList: select `clients`.`name` as `clientname`, `campaign`.`name` as `campaign_name`, `users`.`name` as `user_name`, `users`.`role` as `role`, `chats`.`id` as `chat_id`, `chats`.`customer_name` as `cust_name`, `chats`.`cust_unique_id`, `chats`.`assigned_to` as `assignto`, `chats`.`assigned_by` as `assignby`, `chats`.`assigning_flag`, `chats`.`assigned_to`, `chats`.`assigned_at`, `assigning_user`.`name` as `assigned_by`, `chats`.`is_closed`, `closed_user`.`name` as `closed_by`, `chats`.`dispo`, `chats`.`sub_dispo`, `chats`.`remark`, `chats`.`created_at`, `chats`.`closed_at` from `chats` left join `users` on `users`.`id` = `chats`.`assigned_to` left join `clients` on `clients`.`id` = `chats`.`client_id` left join `campaign` on `campaign`.`id` = `chats`.`campaign_id` left join `users` as `closed_user` on `closed_user`.`id` = `chats`.`closed_by` left join `users` as `assigning_user` on `assigning_user`.`id` = `chats`.`assigned_by` where DATE(chats.created_at) BETWEEN ? AND ? and `chats`.`is_closed` in (?, ?, ?, ?) and `clients`.`id` = ? order by `chats`.`id` desc  
+[2025-05-20 17:23:43] local.DEBUG: Bindings: ["2025-05-01","2025-05-01","1","2","3","4",38]  
+[2025-05-20 17:23:43] local.DEBUG: 867 : data put in datatables -----  
+[2025-05-20 17:23:58] local.DEBUG: 
+
+
+--------------------Start getting ChatsList------------------------------------  
+[2025-05-20 17:23:58] local.DEBUG: 775 : getting request data for ChatsList --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/20/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-20
+User: ["All"]  
+[2025-05-20 17:23:58] local.DEBUG: 795 : if all users is there then --  
+[2025-05-20 17:23:58] local.DEBUG: Query for users: select `id` from `users` where `client_id` = ? and `status` in (?, ?) and `role` = ?  
+[2025-05-20 17:23:58] local.DEBUG: Bindings: [38,0,1,"user"]  
+[2025-05-20 17:23:58] local.DEBUG: 838 : query for ChatsList including all user --  
+[2025-05-20 17:23:58] local.DEBUG: Query for ChatsList: select `clients`.`name` as `clientname`, `campaign`.`name` as `campaign_name`, `users`.`name` as `user_name`, `users`.`role` as `role`, `chats`.`id` as `chat_id`, `chats`.`customer_name` as `cust_name`, `chats`.`cust_unique_id`, `chats`.`assigned_to` as `assignto`, `chats`.`assigned_by` as `assignby`, `chats`.`assigning_flag`, `chats`.`assigned_to`, `chats`.`assigned_at`, `assigning_user`.`name` as `assigned_by`, `chats`.`is_closed`, `closed_user`.`name` as `closed_by`, `chats`.`dispo`, `chats`.`sub_dispo`, `chats`.`remark`, `chats`.`created_at`, `chats`.`closed_at` from `chats` left join `users` on `users`.`id` = `chats`.`assigned_to` left join `clients` on `clients`.`id` = `chats`.`client_id` left join `campaign` on `campaign`.`id` = `chats`.`campaign_id` left join `users` as `closed_user` on `closed_user`.`id` = `chats`.`closed_by` left join `users` as `assigning_user` on `assigning_user`.`id` = `chats`.`assigned_by` where DATE(chats.created_at) BETWEEN ? AND ? and `chats`.`is_closed` in (?, ?, ?, ?) and `clients`.`id` = ? order by `chats`.`id` desc  
+[2025-05-20 17:23:58] local.DEBUG: Bindings: ["2025-05-01","2025-05-20","1","2","3","4",38]  
+[2025-05-20 17:23:58] local.DEBUG: 867 : data put in datatables -----  

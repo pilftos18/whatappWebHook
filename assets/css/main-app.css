@@ -1,0 +1,48 @@
+
+
+.notification-pop{background-color: #FFF;padding: 15px;border-radius: 5px;position: absolute;right: -100%; border: 1px solid #F9F9F9; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22); width: 399px; z-index: 111; transition: all ease 1.2s;}
+.pop-right-to-left{right: 10px; bottom: 10px;}
+.right-side{position: relative;}
+.right-side .close{position: absolute; right: 0; color: #f00;}
+
+.action-btn-group .action-btn {
+  height: auto;
+  line-height: normal;
+  padding: 5px;
+  display: none;
+  border-radius: 50% !important;
+  width: 35px;
+  height: 35px;
+}
+.action-btn-group .active-btn{display: inline-block;}
+
+.agent-current-status {font-size: 34px; margin-bottom: 0; line-height: 0;}
+.agent-status-box .timer{width: 90px;}
+.agent-status-box{box-shadow: none;width: 150px;padding: 5px 10px;text-align: left;line-height: 1.3;font-size: 14px; transform: rotateY(0deg); transition: all ease 2s;}
+.agent-status-box .agent-current-status i {border-radius: 50%; height: 38px; width: 38px; display: none; margin-right: 10px;}
+.agent-status-box.agent-login .agent-current-status i.bi-box-arrow-in-right {display: inline-block;}
+.agent-status-box.agent-pause .agent-current-status i.bi-pause-fill{display: inline-block;}
+.agent-status-box.agent-ready .agent-current-status i.bi-play-fill{display: inline-block;}
+.agent-status-box.agent-connecting .agent-current-status i.bi-telephone-outbound-fill{display: inline-block;}
+.agent-status-box.agent-incall .agent-current-status i.bi-headset{display: inline-block;}
+.agent-status-box.agent-dispo .agent-current-status i.bi-telephone-minus-fill{display: inline-block;}
+.agent-login{background: #b1c8df;color: #364f68;}
+.agent-ready{color: #ea7f24; background: #efd0b6;}
+.agent-pause{color: #F31919; background: #FFC8BA;}
+.agent-connecting{color: #1078da; background: #c7e1f9;}
+.agent-incall{color: #0ad491; background: #c5f8e7;}
+.agent-dispo{color: #9e9e9e; background: #d9d9d9;}
+.flip{transform: rotateY(360deg);}
+.not-ready-reason-list .form-check {
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.not-ready-reason-list .form-check label{
+  cursor: pointer;
+}
+
+.alert-primary{background: #4a9bf2 !important;}
+.alert-success{background: #55a50a !important;}
+.alert-danger{background: #d82912 !important;}
+.alert-warning{background: #e09b1a !important;}

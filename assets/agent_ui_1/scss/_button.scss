@@ -1,0 +1,16 @@
+%btn{
+    line-height: 40px; padding: 0 30px; transition: all 0.3s ease-out 0s;  position: relative; z-index: 1; height: 47px; font-size: $sm-font-size; border-radius: 0;
+    &:hover{background-color: $color-white;}
+}
+.btn-primary, .btn-primary:focus, .btn-primary:active{
+    @extend %btn; background: $color-primary; border: none; color: $color-black;
+    &:hover{color: $color-white; background-color: $color-black;}
+}
+.btn-outline-primary{
+    @extend %btn; border-color: $color-primary;box-shadow: none; color: $color-primary; background: none;
+    &:hover, &:active, &:focus, &:first-child:active{background: $color-primary; box-shadow: none; border-color: $color-black; color: $color-white;}
+}
+.btn-secondary{
+    @extend %btn;  border: none;
+    &:hover{color: $color-gray;}
+}

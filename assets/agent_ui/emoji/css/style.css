@@ -1,0 +1,82 @@
+
+.emoji {
+  color: transparent;
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  height: 25px;
+  width: 25px;
+}
+
+.emoji::selection {
+  background-color: highlight;
+  color: transparent;
+}
+
+.emoji-image {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.emoji-button {
+  cursor: pointer;
+}
+
+.emoji-editor {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: text;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  -webkit-font-smoothing: antialiased;
+  overflow: auto;
+  padding: 6px 12px;
+}
+.emoji-editor[placeholder]:empty:before {
+  content: attr(placeholder);
+  color: #555; 
+}
+
+.emoji-picker {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  width: 210px;
+}
+
+.emoji-picker .nav-tabs>li>a, .emoji-picker a {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding: 3px;
+  margin-right: 0;
+  border: 0;
+}
+
+.emoji-selector {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.emoji-selector li { margin: 5px; }
+
+.emoji-group {
+  display: grid;
+  grid-template-columns: repeat(6, 16.66667%);
+  height: 200px;
+  overflow-y: scroll;
+  padding: 3px;
+}
+.emoji-picker .tab-content{padding: 0;}
+.emoji-picker .tab-content>.active{display: grid;}
+
+
+.emoji-picker{
+  bottom: 56px;
+  right: 265px;
+  z-index: 111;
+}  
+
+/*# sourceMappingURL=style.css.map */

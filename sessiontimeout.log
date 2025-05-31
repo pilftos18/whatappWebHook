@@ -1,0 +1,1663 @@
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+php: error while loading shared libraries: libstdc++.so.6: cannot map zero-fill pages: Cannot allocate memory
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+/bin/sh: /usr/bin/php: Cannot allocate memory
+php: error while loading shared libraries: libcom_err.so.2: failed to map segment from shared object: Cannot allocate memory
+/bin/sh: /usr/bin/php: Cannot allocate memory
+php: error while loading shared libraries: libxml2.so.2: cannot map zero-fill pages: Cannot allocate memory
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 36864 bytes) in /var/www/html/vaaniSM/vendor/nunomaduro/collision/src/Highlighter.php on line 138
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Out of memory (allocated 23068672) (tried to allocate 36864 bytes)
+
+  at vendor/nunomaduro/collision/src/Highlighter.php:138
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 20480 bytes) in /var/www/html/vaaniSM/vendor/filp/whoops/src/Whoops/Exception/Frame.php on line 120
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+php: error while loading shared libraries: cannot allocate symbol search list: Cannot allocate memory
+php: error while loading shared libraries: libfreebl3.so: cannot create shared object descriptor: Cannot allocate memory
+php: error while loading shared libraries: librt.so.1: cannot create shared object descriptor: Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /var/www/html/vaaniSM/vendor/composer/autoload_static.php on line 4213
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+      [2m+20 vendor frames [22m
+
+  21  app/Http/Controllers/CommonController.php:31
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (SQL: select `user_id` from `session_log` where `login_status` = 1 order by `created_at` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+      [2m+20 vendor frames [22m
+  21  app/Http/Controllers/CommonController.php:31
+      Illuminate\Database\Query\Builder::get()
+
+  22  app/Console/Commands/UpdateLoginStatus.php:42
+      App\Http\Controllers\CommonController::updateLoginStatus()

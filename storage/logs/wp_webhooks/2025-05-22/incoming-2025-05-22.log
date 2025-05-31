@@ -1,0 +1,1797 @@
+[2025-05-22 18:45:43] local.DEBUG: 98
+
+ ---- Start handleWebhook - for 1747919743596 at : Thursday 22nd of May 2025 06:45:43 PM  
+[2025-05-22 18:45:43] local.DEBUG: 100
+
+ ---- Request Data : POST /tara/vaaniSM/incoming_wpbf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Connection:      Keep-Alive
+Content-Length:  127
+Content-Type:    text/plain; charset=UTF-8
+Cookie:          vaaniSM_cookie=eyJpdiI6Ik5YcnFXMnNsK3ZIYThBMWVOQk13S0E9PSIsInZhbHVlIjoick04RDVrbnNzZzYrRkt0TzBmTFRNd2FuUmdOY1c1WVBOckJxTW1aQW1oa1Zsc0xQYzRZMC9ENFZDK1JjV3prdXIrN2FhSG0zblhyMm5nUXhJd0xkRGlHbitCRzJwOVY2VlBWdmlma1dwN3diTXE2QzdrRG04QTJwaXV1RGZvVE0iLCJtYWMiOiI3YjY4NTUyNWQ3YWE0MmJjOTEyZjczMmNiZWE0MDk1NjRlNzQyMDBlYjc1N2RmOGEyZTJhMmQ0NzNkZWU3NDhlIiwidGFnIjoiIn0%3D
+Host:            waba-web.edas.tech
+User-Agent:      Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+Cookie: vaaniSM_cookie=qmA0FzY6CQG4huLwrLSw1PCIMVnIzliMsNWjZYyN
+
+{"waNumber":"917304609236","mobile":"919029634011","name":"T@\u20b9l","text":"Hello","type":"text","timestamp":"1747919742000"}  
+[2025-05-22 18:45:43] local.DEBUG: 101
+
+ ---- Start request data--- : Array
+(
+)
+  
+[2025-05-22 18:45:43] local.DEBUG: 105
+
+ ---- Start request data : Array
+(
+    [waNumber] => 917304609236
+    [mobile] => 919029634011
+    [name] => T@₹l
+    [text] => Hello
+    [type] => text
+    [timestamp] => 1747919742000
+)
+  
+[2025-05-22 18:45:43] local.DEBUG: 161Step1 - Chat :   
+[2025-05-22 18:45:43] local.DEBUG: 167Step2 :   
+[2025-05-22 18:45:43] local.DEBUG: 214text data --- : Hello  
+[2025-05-22 18:45:44] local.DEBUG: 247 opID :   
+[2025-05-22 18:45:44] local.DEBUG: 249Chat Details : Array
+(
+    [id] => 5
+    [unique_id] => 9ea05ffacca74127875abeb7091fdf54
+    [client_id] => 38
+    [campaign_id] => 44
+    [org_no] => 917304609236
+    [cust_unique_id] => 919029634011
+    [customer_name] => T@₹l
+    [chat_log_path] => 
+    [assigning_flag] => 1
+    [req_assigning_at] => 
+    [open_at] => 
+    [assigned_to] => 
+    [assigned_at] => 
+    [assigned_by] => 
+    [is_closed] => 1
+    [closed_at] => 
+    [closed_by] => 
+    [dispo] => 
+    [sub_dispo] => 
+    [remark] => 
+    [status] => 1
+    [is_callback] => 1
+    [callback_at] => 
+    [lsto] => 
+    [created_at] => 2025-05-22 18:45:43
+    [created_by] => 0
+    [updated_at] => 2025-05-22 18:45:43
+    [updated_by] => 
+    [vip_session] => 
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 256Webhook received and processed  
+[2025-05-22 18:45:44] local.DEBUG: 272ertertretret :   
+[2025-05-22 18:45:44] local.DEBUG: 1037inside AddChatToFlowManager  
+[2025-05-22 18:45:44] local.DEBUG: 274flowMData : stdClass Object
+(
+    [flow_level] => 2
+    [flow_sub_level] => 2.6.1.1
+    [language] => Hello
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 330Flow Level : 2  
+[2025-05-22 18:45:44] local.DEBUG: 331Flow Sub Level : 2.6.1.1  
+[2025-05-22 18:45:44] local.DEBUG: 505Text hfgjhij : Hello  
+[2025-05-22 18:45:44] local.DEBUG: 918deafault : 1  
+[2025-05-22 18:45:44] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 18:45:44] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 5
+    [message_type] => text
+    [event] => 
+    [message] => Invalid request, please choose the right option...
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 270isTemplate :   
+[2025-05-22 18:45:44] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 18:45:44] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => Invalid request, please choose the right option...
+    [msg_id] => dbd7b18c531f4c4d85d8944284eb6e13
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919029634011","details":"","id":"5439241516311601179-dbd7b18c531f4c4d85d8944284eb6e13","status":"success"}}
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 463response : {"response":{"phone":"919029634011","details":"","id":"5439241516311601179-dbd7b18c531f4c4d85d8944284eb6e13","status":"success"}}  
+[2025-05-22 18:45:44] local.DEBUG: 470json_last_error : 0  
+[2025-05-22 18:45:44] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919029634011
+            [details] => 
+            [id] => 5439241516311601179-dbd7b18c531f4c4d85d8944284eb6e13
+            [status] => success
+        )
+
+)
+  
+[2025-05-22 18:45:44] local.DEBUG: 472URL :   
+[2025-05-22 18:45:44] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => Invalid request, please choose the right option...
+    [msg_id] => dbd7b18c531f4c4d85d8944284eb6e13
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-22 18:45:45] local.DEBUG: 493Insert Chat_log ID : 6  
+[2025-05-22 18:45:45] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919029634011","details":"","id":"5439241516311601179-dbd7b18c531f4c4d85d8944284eb6e13","status":"success"}}
+)
+  
+[2025-05-22 18:45:45] local.DEBUG: 533Last Inserted ID of APILOG Table : 570647  
+[2025-05-22 18:45:45] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 18:45:47] local.DEBUG: 1158
+
+ ------------DIYButton ------------ 
+  
+[2025-05-22 18:45:47] local.DEBUG: 1159{"mm":"Main menu","end":"End session"}  
+[2025-05-22 18:45:47] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 18:45:47] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 5
+    [message_type] => TEXT
+    [event] => 
+    [message] => What would you like to do next?
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => REPLY_BUTTON
+    [action] => {
+    "buttons": [
+        {
+            "type": "reply",
+            "reply": {
+                "id": "mm-s0-0-0",
+                "title": "Main menu"
+            }
+        },
+        {
+            "type": "reply",
+            "reply": {
+                "id": "end-s0-0-0",
+                "title": "End session"
+            }
+        }
+    ]
+}
+    [interactive_type] => dr_button
+    [footer] => 
+    [templateID] => 0
+)
+  
+[2025-05-22 18:45:47] local.DEBUG: 270isTemplate : 1  
+[2025-05-22 18:45:47] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 18:45:47] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:45:47] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:45:47] local.DEBUG: 399twoway_userid : 2000200386  
+[2025-05-22 18:45:47] local.DEBUG: 450Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 18:45:47] local.DEBUG: 451Complete Payload for template : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => What would you like to do next?
+    [action] => {
+    "buttons": [
+        {
+            "type": "reply",
+            "reply": {
+                "id": "mm-s0-0-0",
+                "title": "Main menu"
+            }
+        },
+        {
+            "type": "reply",
+            "reply": {
+                "id": "end-s0-0-0",
+                "title": "End session"
+            }
+        }
+    ]
+}
+    [interactive_type] => dr_button
+    [footer] => 
+    [msg_id] => b56eb84ec2eb4d7bbd7d812345d19bf1
+)
+  
+[2025-05-22 18:45:48] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => success | 919029634011 | 5439241545103208562-b56eb84ec2eb4d7bbd7d812345d19bf1
+
+)
+  
+[2025-05-22 18:45:48] local.DEBUG: 463response : success | 919029634011 | 5439241545103208562-b56eb84ec2eb4d7bbd7d812345d19bf1
+  
+[2025-05-22 18:45:48] local.DEBUG: 470json_last_error : 4  
+[2025-05-22 18:45:48] local.DEBUG: 471apiRes : Array
+(
+    [0] => success 
+    [1] =>  919029634011 
+    [2] =>  5439241545103208562-b56eb84ec2eb4d7bbd7d812345d19bf1
+
+)
+  
+[2025-05-22 18:45:48] local.DEBUG: 472URL :   
+[2025-05-22 18:45:48] local.DEBUG: 473Payload : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => What would you like to do next?
+    [action] => {
+    "buttons": [
+        {
+            "type": "reply",
+            "reply": {
+                "id": "mm-s0-0-0",
+                "title": "Main menu"
+            }
+        },
+        {
+            "type": "reply",
+            "reply": {
+                "id": "end-s0-0-0",
+                "title": "End session"
+            }
+        }
+    ]
+}
+    [interactive_type] => dr_button
+    [footer] => 
+    [msg_id] => b56eb84ec2eb4d7bbd7d812345d19bf1
+)
+  
+[2025-05-22 18:45:48] local.DEBUG: 493Insert Chat_log ID : 7  
+[2025-05-22 18:45:48] local.DEBUG: 520 Result Log : Array
+(
+    [msg] =>  5439241545103208562-b56eb84ec2eb4d7bbd7d812345d19bf1
+
+    [status] => success 
+    [status_code] =>  919029634011 
+    [data] => success | 919029634011 | 5439241545103208562-b56eb84ec2eb4d7bbd7d812345d19bf1
+
+)
+  
+[2025-05-22 18:45:49] local.DEBUG: 533Last Inserted ID of APILOG Table : 570648  
+[2025-05-22 18:45:49] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 18:45:49] local.DEBUG: 961Webhook received and processed  
+[2025-05-22 18:45:49] local.DEBUG: 963-----End Webhook-----------\n  
+[2025-05-22 18:55:42] local.DEBUG: 98
+
+ ---- Start handleWebhook - for 1747920342858 at : Thursday 22nd of May 2025 06:55:42 PM  
+[2025-05-22 18:55:42] local.DEBUG: 100
+
+ ---- Request Data : POST /tara/vaaniSM/incoming_wpbf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Connection:      Keep-Alive
+Content-Length:  397
+Content-Type:    text/plain; charset=UTF-8
+Cookie:          vaaniSM_cookie=eyJpdiI6IkFKK1VlQU9ab3pybHJkTWo3ZVBTZkE9PSIsInZhbHVlIjoidFJlSDY3b1FidEFRRkxxNEJJU3BuZGJEN0wwUlVOYzdvTU5NOVg5UVhFMjN1eGtKditIK3BXdW9BK2dQR0RCczliT0ZsZ2REZ0svekVONk9sSEhmS0tHbExkbEhlR0VyNm9uUTRvb1hTNUUzVElTczdKcGZTLzY1a1Qvem43U3MiLCJtYWMiOiI1ODZlMWUwZjc2YmJkYjljMjZjODFjZTVmNzhhNWM4ZDVkYjdjNDIwZGQ5OThiN2U4NWZjMjMwNWEyOWQyNTM5IiwidGFnIjoiIn0%3D
+Host:            waba-web.edas.tech
+User-Agent:      Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+Cookie: vaaniSM_cookie=pMHi8YOyRxUi7PcgiHigqiiFJmONpuCr8pSWWuLs
+
+{"waNumber":"917304609236","mobile":"919029634011","interactive":"{\"type\":\"button_reply\",\"button_reply\":{\"id\":\"end-s0-0-0\",\"title\":\"End session\"}}","context":"{\"from\":\"917304609236\",\"id\":\"7bcf18fd-b042-49b1-8c97-7c7fd118b97d\"}","replyId":"5439241545103208562","name":"T@\u20b9l","messageId":"b56eb84ec2eb4d7bbd7d812345d19bf1","type":"interactive","timestamp":"1747920340000"}  
+[2025-05-22 18:55:42] local.DEBUG: 101
+
+ ---- Start request data--- : Array
+(
+)
+  
+[2025-05-22 18:55:42] local.DEBUG: 105
+
+ ---- Start request data : Array
+(
+    [waNumber] => 917304609236
+    [mobile] => 919029634011
+    [interactive] => {"type":"button_reply","button_reply":{"id":"end-s0-0-0","title":"End session"}}
+    [context] => {"from":"917304609236","id":"7bcf18fd-b042-49b1-8c97-7c7fd118b97d"}
+    [replyId] => 5439241545103208562
+    [name] => T@₹l
+    [messageId] => b56eb84ec2eb4d7bbd7d812345d19bf1
+    [type] => interactive
+    [timestamp] => 1747920340000
+)
+  
+[2025-05-22 18:55:42] local.DEBUG: 161Step1 - Chat : 5  
+[2025-05-22 18:55:42] local.DEBUG: 224interactive --- : end-s0-0-0  
+[2025-05-22 18:55:42] local.DEBUG: 225opID --- : end  
+[2025-05-22 18:55:43] local.DEBUG: 247 opID : end  
+[2025-05-22 18:55:43] local.DEBUG: 249Chat Details : Array
+(
+    [id] => 5
+    [unique_id] => 9ea05ffacca74127875abeb7091fdf54
+    [client_id] => 38
+    [campaign_id] => 44
+    [org_no] => 917304609236
+    [cust_unique_id] => 919029634011
+    [customer_name] => T@₹l
+    [chat_log_path] => 
+    [assigning_flag] => 1
+    [req_assigning_at] => 
+    [open_at] => 
+    [assigned_to] => 
+    [assigned_at] => 
+    [assigned_by] => 
+    [is_closed] => 1
+    [closed_at] => 
+    [closed_by] => 
+    [dispo] => 
+    [sub_dispo] => 
+    [remark] => 
+    [status] => 1
+    [is_callback] => 1
+    [callback_at] => 
+    [lsto] => 
+    [created_at] => 2025-05-22 18:45:43
+    [created_by] => 0
+    [updated_at] => 2025-05-22 18:45:43
+    [updated_by] => 
+    [vip_session] => 
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 256Webhook received and processed  
+[2025-05-22 18:55:43] local.DEBUG: 272ertertretret :   
+[2025-05-22 18:55:43] local.DEBUG: 1037inside AddChatToFlowManager  
+[2025-05-22 18:55:43] local.DEBUG: 274flowMData : stdClass Object
+(
+    [flow_level] => 2
+    [flow_sub_level] => 2.6.1.1
+    [language] => Hello
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 990
+ updateFlowLevel{"flow_level":2,"flow_sub_level":0} 
+  
+[2025-05-22 18:55:43] local.DEBUG: 330Flow Level : 2  
+[2025-05-22 18:55:43] local.DEBUG: 331Flow Sub Level : 0  
+[2025-05-22 18:55:43] local.DEBUG: 505Text hfgjhij : 2.9  
+[2025-05-22 18:55:43] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 18:55:43] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 5
+    [message_type] => text
+    [event] => 
+    [message] => Thank you, LiveChat session has been ended
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 270isTemplate :   
+[2025-05-22 18:55:43] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 18:55:43] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => Thank you, LiveChat session has been ended
+    [msg_id] => f3143b0211e5439aaf23dc17f806261f
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919029634011","details":"","id":"5439246541259743359-f3143b0211e5439aaf23dc17f806261f","status":"success"}}
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 463response : {"response":{"phone":"919029634011","details":"","id":"5439246541259743359-f3143b0211e5439aaf23dc17f806261f","status":"success"}}  
+[2025-05-22 18:55:43] local.DEBUG: 470json_last_error : 0  
+[2025-05-22 18:55:43] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919029634011
+            [details] => 
+            [id] => 5439246541259743359-f3143b0211e5439aaf23dc17f806261f
+            [status] => success
+        )
+
+)
+  
+[2025-05-22 18:55:43] local.DEBUG: 472URL :   
+[2025-05-22 18:55:43] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => Thank you, LiveChat session has been ended
+    [msg_id] => f3143b0211e5439aaf23dc17f806261f
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-22 18:55:44] local.DEBUG: 493Insert Chat_log ID : 9  
+[2025-05-22 18:55:44] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919029634011","details":"","id":"5439246541259743359-f3143b0211e5439aaf23dc17f806261f","status":"success"}}
+)
+  
+[2025-05-22 18:55:44] local.DEBUG: 533Last Inserted ID of APILOG Table : 570649  
+[2025-05-22 18:55:44] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 18:55:44] local.DEBUG: 990
+ updateFlowLevel{"flow_level":1,"flow_sub_level":0} 
+  
+[2025-05-22 18:55:45] local.DEBUG: 961Webhook received and processed  
+[2025-05-22 18:55:45] local.DEBUG: 963-----End Webhook-----------\n  
+[2025-05-22 18:55:53] local.DEBUG: 98
+
+ ---- Start handleWebhook - for 1747920353042 at : Thursday 22nd of May 2025 06:55:53 PM  
+[2025-05-22 18:55:53] local.DEBUG: 100
+
+ ---- Request Data : POST /tara/vaaniSM/incoming_wpbf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Connection:      Keep-Alive
+Content-Length:  394
+Content-Type:    text/plain; charset=UTF-8
+Cookie:          vaaniSM_cookie=eyJpdiI6Inl4WTZqU2RMZWpPNmFDUDg0SVFnRlE9PSIsInZhbHVlIjoiTTFTaHNKOFRMQVhRb1RvRHRjUjJaeVBIc3IrQ3k5dkRDSFc2eFhpajRnLzcxRkcyV0U3RjlQNzdUUkVkNUI2elpJaGpJQTVwTXF5YjJ5TWRrTGtWcE9qaG1RazNGOHFOQTRMSXZYNG9aWUFhRVp1Uk5PNXlyektvOXl4V1doRnYiLCJtYWMiOiJjODhkMGQwNmQ0YjMyNTNmNmZjOWVhNzdjOGE1YmI0MzAzNmM2YTZmZWFiZWUyZmYyZWZmYThjNTFlZjNiNTdhIiwidGFnIjoiIn0%3D
+Host:            waba-web.edas.tech
+User-Agent:      Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+Cookie: vaaniSM_cookie=HRsW3Em8e0rNGu3LVxazn3IOJvfTYwM173Mk0kS7
+
+{"waNumber":"917304609236","mobile":"919029634011","interactive":"{\"type\":\"button_reply\",\"button_reply\":{\"id\":\"mm-s0-0-0\",\"title\":\"Main menu\"}}","context":"{\"from\":\"917304609236\",\"id\":\"7bcf18fd-b042-49b1-8c97-7c7fd118b97d\"}","replyId":"5439241545103208562","name":"T@\u20b9l","messageId":"b56eb84ec2eb4d7bbd7d812345d19bf1","type":"interactive","timestamp":"1747920351000"}  
+[2025-05-22 18:55:53] local.DEBUG: 101
+
+ ---- Start request data--- : Array
+(
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 105
+
+ ---- Start request data : Array
+(
+    [waNumber] => 917304609236
+    [mobile] => 919029634011
+    [interactive] => {"type":"button_reply","button_reply":{"id":"mm-s0-0-0","title":"Main menu"}}
+    [context] => {"from":"917304609236","id":"7bcf18fd-b042-49b1-8c97-7c7fd118b97d"}
+    [replyId] => 5439241545103208562
+    [name] => T@₹l
+    [messageId] => b56eb84ec2eb4d7bbd7d812345d19bf1
+    [type] => interactive
+    [timestamp] => 1747920351000
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 161Step1 - Chat :   
+[2025-05-22 18:55:53] local.DEBUG: 167Step2 :   
+[2025-05-22 18:55:53] local.DEBUG: 224interactive --- : mm-s0-0-0  
+[2025-05-22 18:55:53] local.DEBUG: 225opID --- : mm  
+[2025-05-22 18:55:53] local.DEBUG: 247 opID : mm  
+[2025-05-22 18:55:53] local.DEBUG: 249Chat Details : Array
+(
+    [id] => 6
+    [unique_id] => 03f63cd74af3439ab86c3f14f82b68f0
+    [client_id] => 38
+    [campaign_id] => 44
+    [org_no] => 917304609236
+    [cust_unique_id] => 919029634011
+    [customer_name] => T@₹l
+    [chat_log_path] => 
+    [assigning_flag] => 1
+    [req_assigning_at] => 
+    [open_at] => 
+    [assigned_to] => 
+    [assigned_at] => 
+    [assigned_by] => 
+    [is_closed] => 1
+    [closed_at] => 
+    [closed_by] => 
+    [dispo] => 
+    [sub_dispo] => 
+    [remark] => 
+    [status] => 1
+    [is_callback] => 1
+    [callback_at] => 
+    [lsto] => 
+    [created_at] => 2025-05-22 18:55:53
+    [created_by] => 0
+    [updated_at] => 2025-05-22 18:55:53
+    [updated_by] => 
+    [vip_session] => 
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 256Webhook received and processed  
+[2025-05-22 18:55:53] local.DEBUG: 272ertertretret :   
+[2025-05-22 18:55:53] local.DEBUG: 1037inside AddChatToFlowManager  
+[2025-05-22 18:55:53] local.DEBUG: 274flowMData : stdClass Object
+(
+    [flow_level] => 1
+    [flow_sub_level] => 0
+    [language] => Hello
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 990
+ updateFlowLevel{"flow_level":1,"flow_sub_level":0} 
+  
+[2025-05-22 18:55:53] local.DEBUG: 330Flow Level : 1  
+[2025-05-22 18:55:53] local.DEBUG: 331Flow Sub Level : 0  
+[2025-05-22 18:55:53] local.DEBUG: 384Text Details : Hello  
+[2025-05-22 18:55:53] local.DEBUG: 385auth_url : https://api.anchor-group.in/auth  
+[2025-05-22 18:55:53] local.DEBUG: 488non reg : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 6
+    [message_type] => text
+    [event] => 
+    [message] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => LIST
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [templateID] => 0
+    [interactive_type] => list
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 18:55:53] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 6
+    [message_type] => text
+    [event] => 
+    [message] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => LIST
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [templateID] => 0
+    [interactive_type] => list
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 270isTemplate : 1  
+[2025-05-22 18:55:53] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 18:55:53] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 399twoway_userid : 2000200386  
+[2025-05-22 18:55:53] local.DEBUG: 450Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 451Complete Payload for template : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [interactive_type] => list
+    [footer] => 
+    [msg_id] => e07a2808c5e7427abcb631c9261967d1
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => success | 919029634011 | 5439246626899341459-e07a2808c5e7427abcb631c9261967d1
+
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 463response : success | 919029634011 | 5439246626899341459-e07a2808c5e7427abcb631c9261967d1
+  
+[2025-05-22 18:55:53] local.DEBUG: 470json_last_error : 4  
+[2025-05-22 18:55:53] local.DEBUG: 471apiRes : Array
+(
+    [0] => success 
+    [1] =>  919029634011 
+    [2] =>  5439246626899341459-e07a2808c5e7427abcb631c9261967d1
+
+)
+  
+[2025-05-22 18:55:53] local.DEBUG: 472URL :   
+[2025-05-22 18:55:53] local.DEBUG: 473Payload : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [interactive_type] => list
+    [footer] => 
+    [msg_id] => e07a2808c5e7427abcb631c9261967d1
+)
+  
+[2025-05-22 18:55:54] local.DEBUG: 493Insert Chat_log ID : 11  
+[2025-05-22 18:55:54] local.DEBUG: 520 Result Log : Array
+(
+    [msg] =>  5439246626899341459-e07a2808c5e7427abcb631c9261967d1
+
+    [status] => success 
+    [status_code] =>  919029634011 
+    [data] => success | 919029634011 | 5439246626899341459-e07a2808c5e7427abcb631c9261967d1
+
+)
+  
+[2025-05-22 18:55:54] local.DEBUG: 533Last Inserted ID of APILOG Table : 570650  
+[2025-05-22 18:55:54] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 18:55:54] local.DEBUG: 990
+ updateFlowLevel{"flow_level":2,"flow_sub_level":0,"language":"Hello"} 
+  
+[2025-05-22 18:55:55] local.DEBUG: 961Webhook received and processed  
+[2025-05-22 18:55:55] local.DEBUG: 963-----End Webhook-----------\n  
+[2025-05-22 18:56:57] local.DEBUG: 98
+
+ ---- Start handleWebhook - for 1747920417282 at : Thursday 22nd of May 2025 06:56:57 PM  
+[2025-05-22 18:56:57] local.DEBUG: 100
+
+ ---- Request Data : POST /tara/vaaniSM/incoming_wpbf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Connection:      Keep-Alive
+Content-Length:  393
+Content-Type:    text/plain; charset=UTF-8
+Cookie:          vaaniSM_cookie=eyJpdiI6IjJVMyszNnEwZ0dKaDQyTmlLeU1yd2c9PSIsInZhbHVlIjoidjh3dVV1YVlYeXdvcUt5U01GNzc0UHF2b3UrWWhkYytHaVlObjVuUTlJUHlZZzVmQnNKMFR6SFhtd2JKdXBvSVpBdDBKTUhjYUtWV3d4RStDcVgrUmVPdVp4UDIxZ1RtNzFPM1FVSUo0cHRDZGg2NiszbnhYTWNQZlhVUHRldCsiLCJtYWMiOiJjMDIzODYwMzYyYzNjMzUzYWU5NWFiOWRjOTQ2YjEzY2MwZDc2ZTFkMGEzZWE3ZDQwYjhkMDY4MWEyZTk5NDgwIiwidGFnIjoiIn0%3D
+Host:            waba-web.edas.tech
+User-Agent:      Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+Cookie: vaaniSM_cookie=HRsW3Em8e0rNGu3LVxazn3IOJvfTYwM173Mk0kS7
+
+{"waNumber":"917304609236","mobile":"919029634011","interactive":"{\"list_reply\":{\"id\":\"2.6\",\"title\":\"Training & Support\"},\"type\":\"list_reply\"}","context":"{\"from\":\"917304609236\",\"id\":\"feef3f3f-63bb-4852-ac4e-2c5da286afd3\"}","replyId":"5439246626899341459","name":"T@\u20b9l","messageId":"e07a2808c5e7427abcb631c9261967d1","type":"interactive","timestamp":"1747920415000"}  
+[2025-05-22 18:56:57] local.DEBUG: 101
+
+ ---- Start request data--- : Array
+(
+)
+  
+[2025-05-22 18:56:57] local.DEBUG: 105
+
+ ---- Start request data : Array
+(
+    [waNumber] => 917304609236
+    [mobile] => 919029634011
+    [interactive] => {"list_reply":{"id":"2.6","title":"Training & Support"},"type":"list_reply"}
+    [context] => {"from":"917304609236","id":"feef3f3f-63bb-4852-ac4e-2c5da286afd3"}
+    [replyId] => 5439246626899341459
+    [name] => T@₹l
+    [messageId] => e07a2808c5e7427abcb631c9261967d1
+    [type] => interactive
+    [timestamp] => 1747920415000
+)
+  
+[2025-05-22 18:56:57] local.DEBUG: 161Step1 - Chat :   
+[2025-05-22 18:56:57] local.DEBUG: 167Step2 :   
+[2025-05-22 18:56:57] local.DEBUG: 224interactive --- : 2.6  
+[2025-05-22 18:56:57] local.DEBUG: 225opID --- : 2.6  
+[2025-05-22 18:56:58] local.DEBUG: 247 opID : 2.6  
+[2025-05-22 18:56:58] local.DEBUG: 249Chat Details : Array
+(
+    [id] => 1
+    [unique_id] => 84c74db2d4624578a92d81c675d578aa
+    [client_id] => 38
+    [campaign_id] => 44
+    [org_no] => 917304609236
+    [cust_unique_id] => 919029634011
+    [customer_name] => T@₹l
+    [chat_log_path] => 
+    [assigning_flag] => 1
+    [req_assigning_at] => 
+    [open_at] => 
+    [assigned_to] => 
+    [assigned_at] => 
+    [assigned_by] => 
+    [is_closed] => 1
+    [closed_at] => 
+    [closed_by] => 
+    [dispo] => 
+    [sub_dispo] => 
+    [remark] => 
+    [status] => 1
+    [is_callback] => 1
+    [callback_at] => 
+    [lsto] => 
+    [created_at] => 2025-05-22 18:56:57
+    [created_by] => 0
+    [updated_at] => 2025-05-22 18:56:57
+    [updated_by] => 
+    [vip_session] => 
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 256Webhook received and processed  
+[2025-05-22 18:56:58] local.DEBUG: 272ertertretret :   
+[2025-05-22 18:56:58] local.DEBUG: 1037inside AddChatToFlowManager  
+[2025-05-22 18:56:58] local.DEBUG: 274flowMData : stdClass Object
+(
+    [flow_level] => 2
+    [flow_sub_level] => 0
+    [language] => Hello
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 990
+ updateFlowLevel{"flow_level":2,"flow_sub_level":"2.6"} 
+  
+[2025-05-22 18:56:58] local.DEBUG: 330Flow Level : 2  
+[2025-05-22 18:56:58] local.DEBUG: 331Flow Sub Level : 2.6  
+[2025-05-22 18:56:58] local.DEBUG: 505Text hfgjhij : 2.6  
+[2025-05-22 18:56:58] local.DEBUG: 1158
+
+ ------------DIYButton ------------ 
+  
+[2025-05-22 18:56:58] local.DEBUG: 1159{"2.6.1":"Training Videos","2.6.2":"Customer Care"}  
+[2025-05-22 18:56:58] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 18:56:58] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 1
+    [message_type] => TEXT
+    [event] => 
+    [message] => Please access training materials & support.
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => REPLY_BUTTON
+    [action] => {
+    "buttons": [
+        {
+            "type": "reply",
+            "reply": {
+                "id": "2.6.1-s0-0-0",
+                "title": "Training Videos"
+            }
+        },
+        {
+            "type": "reply",
+            "reply": {
+                "id": "2.6.2-s0-0-0",
+                "title": "Customer Care"
+            }
+        }
+    ]
+}
+    [interactive_type] => dr_button
+    [footer] => 
+    [templateID] => 0
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 270isTemplate : 1  
+[2025-05-22 18:56:58] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 18:56:58] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 399twoway_userid : 2000200386  
+[2025-05-22 18:56:58] local.DEBUG: 450Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 451Complete Payload for template : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => Please access training materials & support.
+    [action] => {
+    "buttons": [
+        {
+            "type": "reply",
+            "reply": {
+                "id": "2.6.1-s0-0-0",
+                "title": "Training Videos"
+            }
+        },
+        {
+            "type": "reply",
+            "reply": {
+                "id": "2.6.2-s0-0-0",
+                "title": "Customer Care"
+            }
+        }
+    ]
+}
+    [interactive_type] => dr_button
+    [footer] => 
+    [msg_id] => 5de22f78add34862bd6ed25c751a1de4
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => success | 919029634011 | 5439247172233965651-5de22f78add34862bd6ed25c751a1de4
+
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 463response : success | 919029634011 | 5439247172233965651-5de22f78add34862bd6ed25c751a1de4
+  
+[2025-05-22 18:56:58] local.DEBUG: 470json_last_error : 4  
+[2025-05-22 18:56:58] local.DEBUG: 471apiRes : Array
+(
+    [0] => success 
+    [1] =>  919029634011 
+    [2] =>  5439247172233965651-5de22f78add34862bd6ed25c751a1de4
+
+)
+  
+[2025-05-22 18:56:58] local.DEBUG: 472URL :   
+[2025-05-22 18:56:58] local.DEBUG: 473Payload : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => Please access training materials & support.
+    [action] => {
+    "buttons": [
+        {
+            "type": "reply",
+            "reply": {
+                "id": "2.6.1-s0-0-0",
+                "title": "Training Videos"
+            }
+        },
+        {
+            "type": "reply",
+            "reply": {
+                "id": "2.6.2-s0-0-0",
+                "title": "Customer Care"
+            }
+        }
+    ]
+}
+    [interactive_type] => dr_button
+    [footer] => 
+    [msg_id] => 5de22f78add34862bd6ed25c751a1de4
+)
+  
+[2025-05-22 18:56:59] local.DEBUG: 493Insert Chat_log ID : 2  
+[2025-05-22 18:56:59] local.DEBUG: 520 Result Log : Array
+(
+    [msg] =>  5439247172233965651-5de22f78add34862bd6ed25c751a1de4
+
+    [status] => success 
+    [status_code] =>  919029634011 
+    [data] => success | 919029634011 | 5439247172233965651-5de22f78add34862bd6ed25c751a1de4
+
+)
+  
+[2025-05-22 18:56:59] local.DEBUG: 533Last Inserted ID of APILOG Table : 570651  
+[2025-05-22 18:56:59] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 18:56:59] local.DEBUG: 961Webhook received and processed  
+[2025-05-22 18:56:59] local.DEBUG: 963-----End Webhook-----------\n  
+[2025-05-22 18:58:57] local.DEBUG: 98
+
+ ---- Start handleWebhook - for 1747920537029 at : Thursday 22nd of May 2025 06:58:57 PM  
+[2025-05-22 18:58:57] local.DEBUG: 100
+
+ ---- Request Data : POST /tara/vaaniSM/incoming_wpbf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Connection:      Keep-Alive
+Content-Length:  127
+Content-Type:    text/plain; charset=UTF-8
+Cookie:          vaaniSM_cookie=eyJpdiI6IlI2SGExOStaemJwZTg2T1FuakRkMmc9PSIsInZhbHVlIjoiei84OHFBQmhwNnBoUkhoRVhuamc3d01jMEpsemI4aFR4M1BYQzBjTkZCb2IvKzlaQXB1V2FORFk2dUovSWt4TEJJeWg4RGNWelREUTZ6YzRCYXUxSmlSS1AyOUpzL1E0VHdEU3NacnQyMGNFTjFBS2FWdVgvaTZFWGxVeTkzTHgiLCJtYWMiOiI0Nzk2OWQyYzdmM2E5ODlmODE4ZGZiZGZjZDY3ZmI1OTg4NWE3NGEzZjA0ZmE4OWQ2YzZiNDQ2ZDVhMTA3YzAwIiwidGFnIjoiIn0%3D
+Host:            waba-web.edas.tech
+User-Agent:      Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+Cookie: vaaniSM_cookie=pMHi8YOyRxUi7PcgiHigqiiFJmONpuCr8pSWWuLs
+
+{"waNumber":"917304609236","mobile":"919029634011","name":"T@\u20b9l","text":"Hello","type":"text","timestamp":"1747920535000"}  
+[2025-05-22 18:58:57] local.DEBUG: 101
+
+ ---- Start request data--- : Array
+(
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 105
+
+ ---- Start request data : Array
+(
+    [waNumber] => 917304609236
+    [mobile] => 919029634011
+    [name] => T@₹l
+    [text] => Hello
+    [type] => text
+    [timestamp] => 1747920535000
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 161Step1 - Chat :   
+[2025-05-22 18:58:57] local.DEBUG: 167Step2 :   
+[2025-05-22 18:58:57] local.DEBUG: 214text data --- : Hello  
+[2025-05-22 18:58:57] local.DEBUG: 247 opID :   
+[2025-05-22 18:58:57] local.DEBUG: 249Chat Details : Array
+(
+    [id] => 2
+    [unique_id] => aca8c83dfa8648ff8375f11b2667e310
+    [client_id] => 38
+    [campaign_id] => 44
+    [org_no] => 917304609236
+    [cust_unique_id] => 919029634011
+    [customer_name] => T@₹l
+    [chat_log_path] => 
+    [assigning_flag] => 1
+    [req_assigning_at] => 
+    [open_at] => 
+    [assigned_to] => 
+    [assigned_at] => 
+    [assigned_by] => 
+    [is_closed] => 1
+    [closed_at] => 
+    [closed_by] => 
+    [dispo] => 
+    [sub_dispo] => 
+    [remark] => 
+    [status] => 1
+    [is_callback] => 1
+    [callback_at] => 
+    [lsto] => 
+    [created_at] => 2025-05-22 18:58:57
+    [created_by] => 0
+    [updated_at] => 2025-05-22 18:58:57
+    [updated_by] => 
+    [vip_session] => 
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 256Webhook received and processed  
+[2025-05-22 18:58:57] local.DEBUG: 272ertertretret :   
+[2025-05-22 18:58:57] local.DEBUG: 1037inside AddChatToFlowManager  
+[2025-05-22 18:58:57] local.DEBUG: 274flowMData : stdClass Object
+(
+    [flow_level] => 1
+    [flow_sub_level] => 0
+    [language] => Hello
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 330Flow Level : 1  
+[2025-05-22 18:58:57] local.DEBUG: 331Flow Sub Level : 0  
+[2025-05-22 18:58:57] local.DEBUG: 384Text Details : Hello  
+[2025-05-22 18:58:57] local.DEBUG: 385auth_url : https://api.anchor-group.in/auth  
+[2025-05-22 18:58:57] local.DEBUG: 488non reg : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 2
+    [message_type] => text
+    [event] => 
+    [message] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => LIST
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [templateID] => 0
+    [interactive_type] => list
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 18:58:57] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 2
+    [message_type] => text
+    [event] => 
+    [message] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => LIST
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [templateID] => 0
+    [interactive_type] => list
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 270isTemplate : 1  
+[2025-05-22 18:58:57] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 18:58:57] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 399twoway_userid : 2000200386  
+[2025-05-22 18:58:57] local.DEBUG: 450Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 18:58:57] local.DEBUG: 451Complete Payload for template : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [interactive_type] => list
+    [footer] => 
+    [msg_id] => f0a83ea1f5054d6d8965230acc92048d
+)
+  
+[2025-05-22 18:58:58] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => success | 919029634011 | 5439248172484849775-f0a83ea1f5054d6d8965230acc92048d
+
+)
+  
+[2025-05-22 18:58:58] local.DEBUG: 463response : success | 919029634011 | 5439248172484849775-f0a83ea1f5054d6d8965230acc92048d
+  
+[2025-05-22 18:58:58] local.DEBUG: 470json_last_error : 4  
+[2025-05-22 18:58:58] local.DEBUG: 471apiRes : Array
+(
+    [0] => success 
+    [1] =>  919029634011 
+    [2] =>  5439248172484849775-f0a83ea1f5054d6d8965230acc92048d
+
+)
+  
+[2025-05-22 18:58:58] local.DEBUG: 472URL :   
+[2025-05-22 18:58:58] local.DEBUG: 473Payload : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [interactive_type] => list
+    [footer] => 
+    [msg_id] => f0a83ea1f5054d6d8965230acc92048d
+)
+  
+[2025-05-22 18:58:58] local.DEBUG: 493Insert Chat_log ID : 5  
+[2025-05-22 18:58:58] local.DEBUG: 520 Result Log : Array
+(
+    [msg] =>  5439248172484849775-f0a83ea1f5054d6d8965230acc92048d
+
+    [status] => success 
+    [status_code] =>  919029634011 
+    [data] => success | 919029634011 | 5439248172484849775-f0a83ea1f5054d6d8965230acc92048d
+
+)
+  
+[2025-05-22 18:58:58] local.DEBUG: 533Last Inserted ID of APILOG Table : 570653  
+[2025-05-22 18:58:58] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 18:58:58] local.DEBUG: 990
+ updateFlowLevel{"flow_level":2,"flow_sub_level":0,"language":"Hello"} 
+  
+[2025-05-22 18:58:59] local.DEBUG: 961Webhook received and processed  
+[2025-05-22 18:58:59] local.DEBUG: 963-----End Webhook-----------\n  
+[2025-05-22 20:04:45] local.DEBUG: 98
+
+ ---- Start handleWebhook - for 1747924485861 at : Thursday 22nd of May 2025 08:04:45 PM  
+[2025-05-22 20:04:45] local.DEBUG: 100
+
+ ---- Request Data : POST /tara/vaaniSM/incoming_wpbf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Connection:      Keep-Alive
+Content-Length:  127
+Content-Type:    text/plain; charset=UTF-8
+Cookie:          vaaniSM_cookie=eyJpdiI6IjdSZW9CaFIxSDlxVkpMS3FKeFN5WEE9PSIsInZhbHVlIjoiYVI0dmJ0aWJoT2ExY09VTGt5elNxeGFEZEc2dnNlK3B4cmlDSDI3V2FWR2J1UTE1bzkrV2gyNDI2U1c5a0hSMy9TQkNNSThVNTM2OXZMUkFxNUl4amhSbFRSeldJMDZSM2NIN3JOL2NsMlAxcEg5Ym5uZi96YzhDV0VlaHlZcHoiLCJtYWMiOiJmMmM5M2YwYjA4MGRhN2FiMjJlNjFjNjgzZTA4M2VmZjM2OTQ2MDFhNTYxYTVjY2NkNTYyM2UxMGZkZmRmNjQ2IiwidGFnIjoiIn0%3D
+Host:            waba-web.edas.tech
+User-Agent:      Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+Cookie: vaaniSM_cookie=HRsW3Em8e0rNGu3LVxazn3IOJvfTYwM173Mk0kS7
+
+{"waNumber":"917304609236","mobile":"919029634011","name":"T@\u20b9l","text":"Hello","type":"text","timestamp":"1747924484000"}  
+[2025-05-22 20:04:45] local.DEBUG: 101
+
+ ---- Start request data--- : Array
+(
+)
+  
+[2025-05-22 20:04:45] local.DEBUG: 105
+
+ ---- Start request data : Array
+(
+    [waNumber] => 917304609236
+    [mobile] => 919029634011
+    [name] => T@₹l
+    [text] => Hello
+    [type] => text
+    [timestamp] => 1747924484000
+)
+  
+[2025-05-22 20:04:45] local.DEBUG: 161Step1 - Chat :   
+[2025-05-22 20:04:46] local.DEBUG: 167Step2 :   
+[2025-05-22 20:04:46] local.DEBUG: 214text data --- : Hello  
+[2025-05-22 20:04:46] local.DEBUG: 247 opID :   
+[2025-05-22 20:04:46] local.DEBUG: 249Chat Details : Array
+(
+    [id] => 3
+    [unique_id] => 0ec57387b4ef45ae8b3a3c2f9a2e68db
+    [client_id] => 38
+    [campaign_id] => 44
+    [org_no] => 917304609236
+    [cust_unique_id] => 919029634011
+    [customer_name] => T@₹l
+    [chat_log_path] => 
+    [assigning_flag] => 1
+    [req_assigning_at] => 
+    [open_at] => 
+    [assigned_to] => 
+    [assigned_at] => 
+    [assigned_by] => 
+    [is_closed] => 1
+    [closed_at] => 
+    [closed_by] => 
+    [dispo] => 
+    [sub_dispo] => 
+    [remark] => 
+    [status] => 1
+    [is_callback] => 1
+    [callback_at] => 
+    [lsto] => 
+    [created_at] => 2025-05-22 20:04:45
+    [created_by] => 0
+    [updated_at] => 2025-05-22 20:04:45
+    [updated_by] => 
+    [vip_session] => 
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 256Webhook received and processed  
+[2025-05-22 20:04:46] local.DEBUG: 272ertertretret :   
+[2025-05-22 20:04:46] local.DEBUG: 1037inside AddChatToFlowManager  
+[2025-05-22 20:04:46] local.DEBUG: 274flowMData : stdClass Object
+(
+    [flow_level] => 1
+    [flow_sub_level] => 0
+    [language] => Hello
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 330Flow Level : 1  
+[2025-05-22 20:04:46] local.DEBUG: 331Flow Sub Level : 0  
+[2025-05-22 20:04:46] local.DEBUG: 384Text Details : Hello  
+[2025-05-22 20:04:46] local.DEBUG: 385auth_url : https://api.anchor-group.in/auth  
+[2025-05-22 20:04:46] local.DEBUG: 488non reg : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 3
+    [message_type] => text
+    [event] => 
+    [message] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => LIST
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [templateID] => 0
+    [interactive_type] => list
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-22 20:04:46] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 0
+    [chatID] => 3
+    [message_type] => text
+    [event] => 
+    [message] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [reply_id] => 
+    [mediaUrl] => 
+    [templateType] => LIST
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [templateID] => 0
+    [interactive_type] => list
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 270isTemplate : 1  
+[2025-05-22 20:04:46] local.DEBUG: 271logSource : wp_webhooks  
+[2025-05-22 20:04:46] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 399twoway_userid : 2000200386  
+[2025-05-22 20:04:46] local.DEBUG: 450Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 451Complete Payload for template : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [interactive_type] => list
+    [footer] => 
+    [msg_id] => 2fb2f5e7d9e44d2c9b041cfb5fbf5111
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => success | 919029634011 | 5439281297737085101-2fb2f5e7d9e44d2c9b041cfb5fbf5111
+
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 463response : success | 919029634011 | 5439281297737085101-2fb2f5e7d9e44d2c9b041cfb5fbf5111
+  
+[2025-05-22 20:04:46] local.DEBUG: 470json_last_error : 4  
+[2025-05-22 20:04:46] local.DEBUG: 471apiRes : Array
+(
+    [0] => success 
+    [1] =>  919029634011 
+    [2] =>  5439281297737085101-2fb2f5e7d9e44d2c9b041cfb5fbf5111
+
+)
+  
+[2025-05-22 20:04:46] local.DEBUG: 472URL :   
+[2025-05-22 20:04:46] local.DEBUG: 473Payload : Array
+(
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg_type] => text
+    [msg] => It looks like you are *NEW* here. You can explore the options below or register to access full features. 
+
+    [action] => {
+    "button": "Main Menu",
+    "sections": [
+        {
+            "rows": [
+                {
+                    "id": "2.4",
+                    "title": "Learn About the Program"
+                },
+                {
+                    "id": "2.6",
+                    "title": "Training & Support"
+                },
+                {
+                    "id": "2.7",
+                    "title": "SKU Catalogue"
+                },
+                {
+                    "id": "2.11",
+                    "title": "Register Now"
+                }
+            ]
+        }
+    ]
+}
+    [interactive_type] => list
+    [footer] => 
+    [msg_id] => 2fb2f5e7d9e44d2c9b041cfb5fbf5111
+)
+  
+[2025-05-22 20:04:47] local.DEBUG: 493Insert Chat_log ID : 8  
+[2025-05-22 20:04:47] local.DEBUG: 520 Result Log : Array
+(
+    [msg] =>  5439281297737085101-2fb2f5e7d9e44d2c9b041cfb5fbf5111
+
+    [status] => success 
+    [status_code] =>  919029634011 
+    [data] => success | 919029634011 | 5439281297737085101-2fb2f5e7d9e44d2c9b041cfb5fbf5111
+
+)
+  
+[2025-05-22 20:04:47] local.DEBUG: 533Last Inserted ID of APILOG Table : 570655  
+[2025-05-22 20:04:47] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-22 20:04:47] local.DEBUG: 990
+ updateFlowLevel{"flow_level":2,"flow_sub_level":0,"language":"Hello"} 
+  
+[2025-05-22 20:04:47] local.DEBUG: 961Webhook received and processed  
+[2025-05-22 20:04:47] local.DEBUG: 963-----End Webhook-----------\n  

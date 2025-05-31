@@ -1,0 +1,530 @@
+[2025-05-20 15:16:12] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-20 15:16:12] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 98
+    [chatID] => 5
+    [message_type] => text
+    [event] => 
+    [message] => hrllo
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 270isTemplate :   
+[2025-05-20 15:16:12] local.DEBUG: 271logSource : wp_send  
+[2025-05-20 15:16:12] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => hrllo
+    [msg_id] => 24a579ec4c0643c9902e12a015ff824d
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919029634011","details":"","id":"5437686503930294450-24a579ec4c0643c9902e12a015ff824d","status":"success"}}
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 463response : {"response":{"phone":"919029634011","details":"","id":"5437686503930294450-24a579ec4c0643c9902e12a015ff824d","status":"success"}}  
+[2025-05-20 15:16:12] local.DEBUG: 470json_last_error : 0  
+[2025-05-20 15:16:12] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919029634011
+            [details] => 
+            [id] => 5437686503930294450-24a579ec4c0643c9902e12a015ff824d
+            [status] => success
+        )
+
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 472URL :   
+[2025-05-20 15:16:12] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => hrllo
+    [msg_id] => 24a579ec4c0643c9902e12a015ff824d
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:16:12] local.DEBUG: 493Insert Chat_log ID : 190  
+[2025-05-20 15:16:12] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919029634011","details":"","id":"5437686503930294450-24a579ec4c0643c9902e12a015ff824d","status":"success"}}
+)
+  
+[2025-05-20 15:16:13] local.DEBUG: 533Last Inserted ID of APILOG Table : 570300  
+[2025-05-20 15:16:13] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-20 15:30:13] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-20 15:30:13] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919137691294
+    [agent_id] => 98
+    [chatID] => 6
+    [message_type] => text
+    [event] => 
+    [message] => Thank you, LiveChat session has been ended
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 270isTemplate :   
+[2025-05-20 15:30:13] local.DEBUG: 271logSource : wp_send  
+[2025-05-20 15:30:13] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919137691294
+    [method] => SendMessage
+    [msg] => Thank you, LiveChat session has been ended
+    [msg_id] => 2fe6ddf78cca4a388efcede48377dcae
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919137691294","details":"","id":"5437693560101757075-2fe6ddf78cca4a388efcede48377dcae","status":"success"}}
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 463response : {"response":{"phone":"919137691294","details":"","id":"5437693560101757075-2fe6ddf78cca4a388efcede48377dcae","status":"success"}}  
+[2025-05-20 15:30:13] local.DEBUG: 470json_last_error : 0  
+[2025-05-20 15:30:13] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919137691294
+            [details] => 
+            [id] => 5437693560101757075-2fe6ddf78cca4a388efcede48377dcae
+            [status] => success
+        )
+
+)
+  
+[2025-05-20 15:30:13] local.DEBUG: 472URL :   
+[2025-05-20 15:30:13] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919137691294
+    [method] => SendMessage
+    [msg] => Thank you, LiveChat session has been ended
+    [msg_id] => 2fe6ddf78cca4a388efcede48377dcae
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:30:14] local.DEBUG: 493Insert Chat_log ID : 200  
+[2025-05-20 15:30:14] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919137691294","details":"","id":"5437693560101757075-2fe6ddf78cca4a388efcede48377dcae","status":"success"}}
+)
+  
+[2025-05-20 15:30:14] local.DEBUG: 533Last Inserted ID of APILOG Table : 570306  
+[2025-05-20 15:30:14] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-20 15:30:38] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-20 15:30:38] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919029634011
+    [agent_id] => 98
+    [chatID] => 5
+    [message_type] => text
+    [event] => 
+    [message] => Thank you, LiveChat session has been ended
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-20 15:30:38] local.DEBUG: 270isTemplate :   
+[2025-05-20 15:30:38] local.DEBUG: 271logSource : wp_send  
+[2025-05-20 15:30:38] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:30:38] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:30:38] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-20 15:30:38] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => Thank you, LiveChat session has been ended
+    [msg_id] => 59d11ab82e894497a11bfb75cc8f9b14
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:30:39] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919029634011","details":"","id":"5437693774227644594-59d11ab82e894497a11bfb75cc8f9b14","status":"success"}}
+)
+  
+[2025-05-20 15:30:39] local.DEBUG: 463response : {"response":{"phone":"919029634011","details":"","id":"5437693774227644594-59d11ab82e894497a11bfb75cc8f9b14","status":"success"}}  
+[2025-05-20 15:30:39] local.DEBUG: 470json_last_error : 0  
+[2025-05-20 15:30:39] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919029634011
+            [details] => 
+            [id] => 5437693774227644594-59d11ab82e894497a11bfb75cc8f9b14
+            [status] => success
+        )
+
+)
+  
+[2025-05-20 15:30:39] local.DEBUG: 472URL :   
+[2025-05-20 15:30:39] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919029634011
+    [method] => SendMessage
+    [msg] => Thank you, LiveChat session has been ended
+    [msg_id] => 59d11ab82e894497a11bfb75cc8f9b14
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:30:39] local.DEBUG: 493Insert Chat_log ID : 201  
+[2025-05-20 15:30:39] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919029634011","details":"","id":"5437693774227644594-59d11ab82e894497a11bfb75cc8f9b14","status":"success"}}
+)
+  
+[2025-05-20 15:30:40] local.DEBUG: 533Last Inserted ID of APILOG Table : 570307  
+[2025-05-20 15:30:40] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-20 15:47:19] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-20 15:47:19] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919137691294
+    [agent_id] => 98
+    [chatID] => 7
+    [message_type] => text
+    [event] => 
+    [message] => hi
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-20 15:47:19] local.DEBUG: 270isTemplate :   
+[2025-05-20 15:47:19] local.DEBUG: 271logSource : wp_send  
+[2025-05-20 15:47:19] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:47:19] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 15:47:19] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-20 15:47:19] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919137691294
+    [method] => SendMessage
+    [msg] => hi
+    [msg_id] => 395c540f0f234becb5775f033df91182
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:47:20] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919137691294","details":"","id":"5437702168061313108-395c540f0f234becb5775f033df91182","status":"success"}}
+)
+  
+[2025-05-20 15:47:20] local.DEBUG: 463response : {"response":{"phone":"919137691294","details":"","id":"5437702168061313108-395c540f0f234becb5775f033df91182","status":"success"}}  
+[2025-05-20 15:47:20] local.DEBUG: 470json_last_error : 0  
+[2025-05-20 15:47:20] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919137691294
+            [details] => 
+            [id] => 5437702168061313108-395c540f0f234becb5775f033df91182
+            [status] => success
+        )
+
+)
+  
+[2025-05-20 15:47:20] local.DEBUG: 472URL :   
+[2025-05-20 15:47:20] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919137691294
+    [method] => SendMessage
+    [msg] => hi
+    [msg_id] => 395c540f0f234becb5775f033df91182
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 15:47:20] local.DEBUG: 493Insert Chat_log ID : 204  
+[2025-05-20 15:47:20] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919137691294","details":"","id":"5437702168061313108-395c540f0f234becb5775f033df91182","status":"success"}}
+)
+  
+[2025-05-20 15:47:20] local.DEBUG: 533Last Inserted ID of APILOG Table : 570309  
+[2025-05-20 15:47:20] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  
+[2025-05-20 16:19:41] local.DEBUG: 
+--------------------Start sendWPMsg ---------
+  
+[2025-05-20 16:19:41] local.DEBUG: 269Input postData : Array
+(
+    [client_id] => 38
+    [campaign_id] => 44
+    [mobile] => 919137691294
+    [agent_id] => 98
+    [chatID] => 8
+    [message_type] => text
+    [event] => 
+    [message] => h
+    [reply_id] => 
+    [mediaUrl] => 
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 270isTemplate :   
+[2025-05-20 16:19:41] local.DEBUG: 271logSource : wp_send  
+[2025-05-20 16:19:41] local.DEBUG: 272campData : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 325Campaign Data : Array
+(
+    [wp_number] => 917304609236
+    [wp_crud] => {"hsm_userid": "2000200384", "hsm_password": "S293h4kw", "twoway_userid": "2000200386", "twoway_password": "X2MYBR4c"}
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 384Error Msg : Array
+(
+    [msg] => Initiated msg
+    [status] => failed
+    [status_code] => 101
+    [data] => Array
+        (
+        )
+
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 385Complete Payload for non template : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919137691294
+    [method] => SendMessage
+    [msg] => h
+    [msg_id] => 540db983a08644ca8e238ef83e067549
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 460res : Array
+(
+    [status] => success
+    [status_code] => 
+    [msg] => 
+    [response] => {"response":{"phone":"919137691294","details":"","id":"5437718456958312562-540db983a08644ca8e238ef83e067549","status":"success"}}
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 463response : {"response":{"phone":"919137691294","details":"","id":"5437718456958312562-540db983a08644ca8e238ef83e067549","status":"success"}}  
+[2025-05-20 16:19:41] local.DEBUG: 470json_last_error : 0  
+[2025-05-20 16:19:41] local.DEBUG: 471apiRes : Array
+(
+    [response] => Array
+        (
+            [phone] => 919137691294
+            [details] => 
+            [id] => 5437718456958312562-540db983a08644ca8e238ef83e067549
+            [status] => success
+        )
+
+)
+  
+[2025-05-20 16:19:41] local.DEBUG: 472URL :   
+[2025-05-20 16:19:41] local.DEBUG: 473Payload : Array
+(
+    [format] => json
+    [userid] => 2000200386
+    [password] => X2MYBR4c
+    [auth_scheme] => plain
+    [v] => 1.1
+    [send_to] => 919137691294
+    [method] => SendMessage
+    [msg] => h
+    [msg_id] => 540db983a08644ca8e238ef83e067549
+    [msg_type] => text
+    [data_encoding] => Unicode_text
+)
+  
+[2025-05-20 16:19:42] local.DEBUG: 493Insert Chat_log ID : 216  
+[2025-05-20 16:19:42] local.DEBUG: 520 Result Log : Array
+(
+    [msg] => success
+    [status] => success
+    [status_code] => 200
+    [data] => {"response":{"phone":"919137691294","details":"","id":"5437718456958312562-540db983a08644ca8e238ef83e067549","status":"success"}}
+)
+  
+[2025-05-20 16:19:42] local.DEBUG: 533Last Inserted ID of APILOG Table : 570316  
+[2025-05-20 16:19:42] local.DEBUG: 534\n-------------- End sendWPMsg ----------------------  

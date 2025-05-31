@@ -1,0 +1,264 @@
+[2025-05-19 15:26:44] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:26:44] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:26:44] local.DEBUG: 134 : data put in datatables -----  
+[2025-05-19 15:33:24] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:33:24] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/18/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-18
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:35:48] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:35:48] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:36:15] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:36:15] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:36:15] local.DEBUG: 138 : data put in datatables -----  
+[2025-05-19 15:36:43] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:36:43] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:36:43] local.DEBUG: 138 : data put in datatables -----  
+[2025-05-19 15:42:11] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:42:11] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:42:11] local.DEBUG: 137 : data put in datatables -----  
+[2025-05-19 15:44:25] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:44:25] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/09/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-09
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:44:25] local.DEBUG: 135 : data put in datatables -----  
+[2025-05-19 15:56:33] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:56:33] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:56:33] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 15:58:47] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 15:58:47] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 15:58:47] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 16:06:42] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 16:06:42] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 35
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "37"
+assign: "all"  
+[2025-05-19 16:06:42] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 16:06:57] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 16:06:57] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 37
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "39"
+assign: "all"  
+[2025-05-19 16:06:57] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 16:47:50] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 16:47:50] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 16:47:50] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 16:51:11] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 16:51:11] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 16:51:11] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 16:54:18] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 16:54:18] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 16:54:18] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 17:03:52] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 17:03:52] local.DEBUG: 68 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 17:03:52] local.DEBUG: 128 : data put in datatables -----  
+[2025-05-19 17:19:58] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 17:19:58] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 17:19:58] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 17:34:46] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 17:34:46] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 17:34:46] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 17:35:23] local.DEBUG: 
+
+
+-------------------- manual user assign log -------------  
+[2025-05-19 17:35:23] local.DEBUG: 145 : getting request data for manual user assign log  --
+Client ID: 38
+assigner_id: 82
+userid: 98  
+[2025-05-19 17:35:23] local.DEBUG: 150 : start updating data in chats table  --  
+[2025-05-19 17:35:23] local.DEBUG: 154 : data inserted in chats table --
+chat_id: 4
+assign_to: 98
+assigned_by: 82
+assigned_at: 2025-05-19 17:35:23  
+[2025-05-19 17:35:23] local.DEBUG: 168 : data inserted in manualassign_log table --
+chat_id: 4\assigned_to: 98
+assigned_by: 82
+assigned_at: 2025-05-19 17:35:23  
+[2025-05-19 17:35:23] local.DEBUG: 177 : data inserted in chats and manualassign_log table  --  
+[2025-05-19 18:15:52] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 18:15:52] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 18:15:52] local.DEBUG: 126 : data put in datatables -----  
+[2025-05-19 19:07:20] local.DEBUG: 
+
+
+--------------------Start getting manual user assign list-------------  
+[2025-05-19 19:07:20] local.DEBUG: 66 : getting request data for manual user assign list --
+Client ID: 38
+Date From: 05/01/2025
+Date To: 05/19/2025
+SQL Date From: 2025-05-01
+SQL Date To: 2025-05-19
+campaign: "44"
+assign: "all"  
+[2025-05-19 19:07:20] local.DEBUG: 126 : data put in datatables -----  
